@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-17T13:20:52 MST" name="Default suite" finished-at="2026-06-17T13:20:58 MST" duration-ms="6122">
+    <groups>
+    </groups>
+    <test started-at="2026-06-17T13:20:52 MST" name="Default test" finished-at="2026-06-17T13:20:58 MST" duration-ms="6122">
+      <class name="practicing.ElementLists">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:practicing.ElementLists@41d477ed]" started-at="2026-06-17T13:20:52 MST" name="OpenBrowser" finished-at="2026-06-17T13:20:55 MST" duration-ms="2205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="TestCaseOne()[pri:0, instance:practicing.ElementLists@41d477ed]" started-at="2026-06-17T13:20:55 MST" name="TestCaseOne" finished-at="2026-06-17T13:20:55 MST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseOne -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:practicing.ElementLists@41d477ed]" started-at="2026-06-17T13:20:55 MST" name="OpenBrowser" finished-at="2026-06-17T13:20:56 MST" duration-ms="1412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="TestCaseTwo()[pri:0, instance:practicing.ElementLists@41d477ed]" started-at="2026-06-17T13:20:56 MST" name="TestCaseTwo" finished-at="2026-06-17T13:20:58 MST" duration-ms="2421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseTwo -->
+      </class> <!-- practicing.ElementLists -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

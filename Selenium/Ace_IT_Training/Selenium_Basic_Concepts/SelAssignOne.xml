@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org" >
+<suite name="TestSuite">
+
+    <!-- Suite-level parameter (Global) -->
+    <parameter name="browser" value="Chrome"/>
+	<parameter name="browser" value="Firefox"/>
+	<parameter name="browser" value="Edge"/>
+    
+</suite>
