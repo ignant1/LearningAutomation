@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org">
 <!-- Change parallel to "none" if you want to run browsers one after another -->
-<suite name="Cross Browser Suite" parallel="tests" thread-count="3">
+<suite name="Cross Browser Suite" parallel="none" thread-count="3">
+
+	<!-- Generate TestNG Reporting  -->
+    <listners>
+    	<listner class-name="org.uncommons.reporting.HTMLRepoter"/>
+    	<listner class-name="org.uncommons.reporting.JUnitXMLRepoter"/>
+    </listners>
     
     <!-- Test execution on Chrome -->
     <test name="Chrome Test">

@@ -2,18 +2,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
-    <groups>
-      <run>
-        <include name="smoke"/>
-      </run>
-    </groups>
     <classes>
-      <class name="testnglearning.TestScenario4">
+      <class name="practicing.ElementLists">
         <methods>
-          <include name="TestCase04"/>
-          <include name="TestCase06"/>
+          <include name="OpenBrowser"/>
+          <include name="TestCaseOne"/>
         </methods>
-      </class> <!-- testnglearning.TestScenario4 -->
+      </class> <!-- practicing.ElementLists -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

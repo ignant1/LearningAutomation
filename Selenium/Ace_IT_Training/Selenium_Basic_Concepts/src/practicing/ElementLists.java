@@ -74,6 +74,8 @@ public class ElementLists{
 		//	
 		//}
 		
+		soft.assertAll();
+		
 	}
 	
 	@BeforeMethod

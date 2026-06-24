@@ -72,7 +72,7 @@ public class BaseClass {
 	}
 	
 	//access the properties config file
-	public Properties getProperties() {
+	public static Properties getProperties() {
 		return properties;
 	}
 	

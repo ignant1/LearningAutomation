@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!-- Generate TestNG Reporting -->
+	<listners>
+		<listner class-name="org.uncommons.reporting.HTMLRepoter" />
+		<listner class-name="org.uncommons.reporting.JUnitXMLRepoter" />
+	</listners>
+
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="practicing.ElementLists" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

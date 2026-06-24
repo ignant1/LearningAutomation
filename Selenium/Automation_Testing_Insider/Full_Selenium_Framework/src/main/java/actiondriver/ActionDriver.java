@@ -6,22 +6,21 @@ import java.util.Properties;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import base.BaseClass;
 
-public class ActionDriver extends BaseClass{
+public class ActionDriver{
 	
 	private WebDriver driver;
 	private WebDriverWait wait;
-	private Properties properties;
 	
 	//Constructor for when the class gets created
-	public ActionDriver(WebDriver wb, Properties prop) {
+	public ActionDriver(WebDriver wb) {
 		driver = wb;
-		properties = prop;
-		wait = new WebDriverWait(driver, Duration.ofSeconds(Integer.parseInt(properties.getProperty("actiondriverwait"))));
+		wait = new WebDriverWait(driver, Duration.ofSeconds(Integer.parseInt(BaseClass.getProperties().getProperty("actiondriverwait"))));
 	}
 	
 	//method to click an element
@@ -38,8 +37,15 @@ public class ActionDriver extends BaseClass{
 	public void enterText(By by, String text) {
 		try {
 			waitForElementToBeVisible(by);
-			driver.findElement(by).clear();
-			driver.findElement(by).sendKeys(text);
+			
+			//Assigning element to variable to handle functionality
+			//no longer going to do it directly in the driver
+			WebElement element = driver.findElement(by);
+			//driver.findElement(by).clear();
+			//driver.findElement(by).sendKeys(text);
+			element.clear();
+			element.sendKeys(text);
+			
 		} catch (Exception e) {
 			System.out.println("Unable to enter text into textbox: " + e.getMessage());
 		}
@@ -57,7 +63,7 @@ public class ActionDriver extends BaseClass{
 	}
 	
 	//method to compare two texts
-	public void compareText(By by, String expectedText) {
+	public boolean compareText(By by, String expectedText) {
 		try {
 			waitForElementToBeVisible(by);
 			String actualText = driver.findElement(by).getText();
@@ -65,13 +71,16 @@ public class ActionDriver extends BaseClass{
 				System.out.println("Text Matches:");
 				System.out.println("Actual Text: \"" + actualText + "\" matches Expected Text : \""
 						+ expectedText + "\" ");
+				return true;
 			} else {
 				System.out.println("Text Does Not Match:");
 				System.out.println("Actual Text: \"" + actualText + "\" does not match Expected Text : \""
 						+ expectedText + "\" ");
+				return false;
 			}
 		} catch (Exception e) {
 			System.out.println("Unable to get text from textbox: " + e.getMessage());
+			return false;
 		}
 	}
 	
@@ -79,14 +88,14 @@ public class ActionDriver extends BaseClass{
 	public boolean isDisplayed(By by){
 		try {
 			waitForElementToBeVisible(by);
-			boolean isDisplayed = driver.findElement(by).isDisplayed();
-			if(isDisplayed) {
-				System.out.println("Element is visible");
-				return isDisplayed;
-			} else {
-				System.out.println("Element is not visible.");
-				return isDisplayed;
-			}
+			
+			//going to simplify the code to just return boolean isDisplayed, not going to include a printout
+			return driver.findElement(by).isDisplayed();
+			/*
+			 * boolean isDisplayed = driver.findElement(by).isDisplayed(); if(isDisplayed) {
+			 * System.out.println("Element is visible"); return isDisplayed; } else {
+			 * System.out.println("Element is not visible."); return isDisplayed; }
+			 */
 		} catch (Exception e) {
 			System.out.println("Element is not visible: " + e.getMessage());
 			return false;
