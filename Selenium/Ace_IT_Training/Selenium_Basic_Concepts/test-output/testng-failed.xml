@@ -3,12 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="practicing.ElementLists">
+      <class name="practicing.framework.testcase.RegistrationScenario">
         <methods>
-          <include name="OpenBrowser"/>
-          <include name="TestCaseOne"/>
+          <include name="LaunchBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="RS04_EmptyNewEmailRegitrationErrorMessage"/>
         </methods>
-      </class> <!-- practicing.ElementLists -->
+      </class> <!-- practicing.framework.testcase.RegistrationScenario -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

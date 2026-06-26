@@ -5,12 +5,7 @@
 		<classes>
 			<class name = "test.DummyClass"></class>
 			<class name = "test.DummyClass2"></class>
-		</classes>
-	</test>
-	<test name = "OrangeHRMTest2">
-		<classes>
-			<class name = "test.DummyClass"></class>
-			<class name = "test.DummyClass2"></class>
+			<class name = "test.LoginPageTest"></class>
 		</classes>
 	</test>
 </suite>

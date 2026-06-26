@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="35.154">
+    <properties></properties>
+
+
+
+            <testcase
+                name="RS02_EmptyNewEmailCheckAvailabilityErrorMessage"
+                time="6.451"
+                classname="practicing.framework.testcase.RegistrationScenario">
+            </testcase>
+            <testcase
+                name="RS04_EmptyNewEmailRegitrationErrorMessage"
+                time="4.920"
+                classname="practicing.framework.testcase.RegistrationScenario">
+            </testcase>
+            <testcase
+                name="RS01_EmptyFullNameRegitrationErrorMessage"
+                time="17.286"
+                classname="practicing.framework.testcase.RegistrationScenario">
+            </testcase>
+            <testcase
+                name="RS03_AlreadyTakenNewEmailCheckAvailabilityErrorMessage"
+                time="6.497"
+                classname="practicing.framework.testcase.RegistrationScenario">
+            </testcase>
+</testsuite>

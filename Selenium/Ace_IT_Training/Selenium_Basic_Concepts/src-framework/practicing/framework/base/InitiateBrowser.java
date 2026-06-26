@@ -15,7 +15,7 @@ import practicing.framework.utility.ReadPropFiles;
 public class InitiateBrowser {
 	
 	//class variables
-	WebDriver driver;
+	protected WebDriver driver;
 	
 	@BeforeMethod
 	public void LaunchBrowser() throws Exception{
@@ -51,9 +51,10 @@ public class InitiateBrowser {
 	}
 	
 	@AfterMethod
-	public void CloseBrowser() {
+	public void CloseBrowser() throws Exception{
 		
 		//shutdown the driver
+		Thread.sleep(Duration.ofSeconds(3));
 		driver.quit();
 	}
 }

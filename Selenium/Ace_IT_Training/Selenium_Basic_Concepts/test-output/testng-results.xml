@@ -1,65 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-23T00:07:21 MST" name="Suite" finished-at="2026-06-23T00:07:26 MST" duration-ms="4309">
+  <suite started-at="2026-06-25T23:04:59 MST" name="Suite" finished-at="2026-06-25T23:06:43 MST" duration-ms="103618">
     <groups>
     </groups>
-    <test started-at="2026-06-23T00:07:21 MST" name="Test" finished-at="2026-06-23T00:07:26 MST" duration-ms="4309">
-      <class name="practicing.ElementLists">
-        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:practicing.ElementLists@77c2494c]" started-at="2026-06-23T00:07:21 MST" name="OpenBrowser" finished-at="2026-06-23T00:07:25 MST" duration-ms="3091" status="PASS">
+    <test started-at="2026-06-25T23:04:59 MST" name="Test" finished-at="2026-06-25T23:06:43 MST" duration-ms="103618">
+      <class name="practicing.framework.testcase.RegistrationScenario">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:practicing.framework.testcase.RegistrationScenario@62ddbd7e]" started-at="2026-06-25T23:04:59 MST" name="LaunchBrowser" finished-at="2026-06-25T23:05:05 MST" duration-ms="5451" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method signature="TestCaseOne()[pri:0, instance:practicing.ElementLists@77c2494c]" started-at="2026-06-23T00:07:25 MST" name="TestCaseOne" finished-at="2026-06-23T00:07:26 MST" duration-ms="1190" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [ - automateNow, LLC. All rights reserved.] but found [2026],
-expected [3d accordion] but found [],
-expected [popup] but found []]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [ - automateNow, LLC. All rights reserved.] but found [2026],
-expected [3d accordion] but found [],
-expected [popup] but found []
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at practicing.ElementLists.TestCaseOne(ElementLists.java:77)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="RS01_EmptyFullNameRegitrationErrorMessage()[pri:0, instance:practicing.framework.testcase.RegistrationScenario@62ddbd7e]" started-at="2026-06-25T23:05:05 MST" name="RS01_EmptyFullNameRegitrationErrorMessage" finished-at="2026-06-25T23:05:22 MST" duration-ms="17286" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestCaseOne -->
-      </class> <!-- practicing.ElementLists -->
+        </test-method> <!-- RS01_EmptyFullNameRegitrationErrorMessage -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:practicing.framework.testcase.RegistrationScenario@62ddbd7e]" started-at="2026-06-25T23:05:22 MST" name="CloseBrowser" finished-at="2026-06-25T23:05:25 MST" duration-ms="3145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:practicing.framework.testcase.RegistrationScenario@62ddbd7e]" started-at="2026-06-25T23:05:25 MST" name="LaunchBrowser" finished-at="2026-06-25T23:05:33 MST" duration-ms="7768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="RS02_EmptyNewEmailCheckAvailabilityErrorMessage()[pri:0, instance:practicing.framework.testcase.RegistrationScenario@62ddbd7e]" started-at="2026-06-25T23:05:33 MST" name="RS02_EmptyNewEmailCheckAvailabilityErrorMessage" finished-at="2026-06-25T23:05:39 MST" duration-ms="6451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RS02_EmptyNewEmailCheckAvailabilityErrorMessage -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:practicing.framework.testcase.RegistrationScenario@62ddbd7e]" started-at="2026-06-25T23:05:39 MST" name="CloseBrowser" finished-at="2026-06-25T23:05:42 MST" duration-ms="3169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:practicing.framework.testcase.RegistrationScenario@62ddbd7e]" started-at="2026-06-25T23:05:42 MST" name="LaunchBrowser" finished-at="2026-06-25T23:06:18 MST" duration-ms="35270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="RS03_AlreadyTakenNewEmailCheckAvailabilityErrorMessage()[pri:0, instance:practicing.framework.testcase.RegistrationScenario@62ddbd7e]" started-at="2026-06-25T23:06:18 MST" name="RS03_AlreadyTakenNewEmailCheckAvailabilityErrorMessage" finished-at="2026-06-25T23:06:24 MST" duration-ms="6497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RS03_AlreadyTakenNewEmailCheckAvailabilityErrorMessage -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:practicing.framework.testcase.RegistrationScenario@62ddbd7e]" started-at="2026-06-25T23:06:24 MST" name="CloseBrowser" finished-at="2026-06-25T23:06:27 MST" duration-ms="3162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:practicing.framework.testcase.RegistrationScenario@62ddbd7e]" started-at="2026-06-25T23:06:27 MST" name="LaunchBrowser" finished-at="2026-06-25T23:06:35 MST" duration-ms="7319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="RS04_EmptyNewEmailRegitrationErrorMessage()[pri:0, instance:practicing.framework.testcase.RegistrationScenario@62ddbd7e]" started-at="2026-06-25T23:06:35 MST" name="RS04_EmptyNewEmailRegitrationErrorMessage" finished-at="2026-06-25T23:06:40 MST" duration-ms="4920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RS04_EmptyNewEmailRegitrationErrorMessage -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:practicing.framework.testcase.RegistrationScenario@62ddbd7e]" started-at="2026-06-25T23:06:40 MST" name="CloseBrowser" finished-at="2026-06-25T23:06:43 MST" duration-ms="3147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- practicing.framework.testcase.RegistrationScenario -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

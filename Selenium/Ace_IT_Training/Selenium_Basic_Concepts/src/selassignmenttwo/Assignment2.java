@@ -17,6 +17,7 @@ public class Assignment2 {
 	@Test
 	public void DoStuff() {
 		driver.findElement(By.xpath("//html/body/div[2]/div[1]/div/div[2]/div[4]/p/a")).click();
+		//driver.findElement(By.xpath("//html/body/div[2]/div[1]/div/div[2]/div[4]/p/a")).click();
 		
 		driver.findElement(By.cssSelector("[placeholder='Enter your full name']")).sendKeys("Big Bird");
 		

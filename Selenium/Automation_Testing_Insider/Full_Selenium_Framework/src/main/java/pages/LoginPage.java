@@ -10,6 +10,7 @@ public class LoginPage {
 	//Define Class Objects
 	private ActionDriver AD;
 	
+	//Initialize the ActionDriver object by passing the WebDriver
 	public LoginPage(WebDriver wd) {
 		AD = new ActionDriver(wd);
 	}
@@ -17,13 +18,13 @@ public class LoginPage {
 	//Define locators
 	private By usernameField = By.name("username");
 	private By passwordField = By.cssSelector("input[type='password']");
-	private By loginButton = By.xpath("//button[text()='Login']");
+	private By loginButton = By.xpath("//button[text()=' Login ']");
 	private By errorMessage = By.xpath("//p[text()='Invalid credentials']");
 	
 	//method to perform login
 	public void performLogin(String userName, String passWord) {
-		AD.enterText(usernameField, "admin");
-		AD.enterText(passwordField, "admin123");
+		AD.enterText(usernameField, userName);
+		AD.enterText(passwordField, passWord);
 		AD.click(loginButton);
 	}
 	
