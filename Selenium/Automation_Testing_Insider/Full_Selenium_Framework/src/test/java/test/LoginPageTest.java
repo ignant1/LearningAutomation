@@ -38,7 +38,7 @@ public class LoginPageTest extends BaseClass{
 		System.out.println("Running test case TC02_invalidLoginTest.");
 		System.out.println("==============================================================================");
 		loginPage.performLogin("admin", "admin12");
-		String expectedErrorMessage = "Invalid credentials1";
+		String expectedErrorMessage = "Invalid credentials";
 		Assert.assertTrue(loginPage.verifyErrorMessage(expectedErrorMessage),"Test Failed: invalid error message");
 		staticwait(2);
 	}

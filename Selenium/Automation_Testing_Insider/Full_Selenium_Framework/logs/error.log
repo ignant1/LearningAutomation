@@ -38,3 +38,83 @@
 2026-06-30 11:31:41 [main] FATAL BaseClass - This is a fatal message for class: LoginPageTest
 2026-06-30 11:31:48 [main] ERROR BaseClass - This is a Error message for class: HomePageTest
 2026-06-30 11:31:48 [main] FATAL BaseClass - This is a fatal message for class: HomePageTest
+2026-06-30 12:07:12 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is a Error message for class: DummyClass
+2026-06-30 12:07:12 [TestNG-test-OrangeHRMTest-1] FATAL BaseClass - This is a fatal message for class: DummyClass
+2026-06-30 12:07:12 [TestNG-test-OrangeHRMTest-4] ERROR BaseClass - This is a Error message for class: HomePageTest
+2026-06-30 12:07:12 [TestNG-test-OrangeHRMTest-4] FATAL BaseClass - This is a fatal message for class: HomePageTest
+2026-06-30 12:07:12 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is a Error message for class: DummyClass2
+2026-06-30 12:07:12 [TestNG-test-OrangeHRMTest-2] FATAL BaseClass - This is a fatal message for class: DummyClass2
+2026-06-30 12:07:13 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is a Error message for class: LoginPageTest
+2026-06-30 12:07:13 [TestNG-test-OrangeHRMTest-3] FATAL BaseClass - This is a fatal message for class: LoginPageTest
+2026-06-30 12:07:14 [TestNG-test-OrangeHRMTest-4] ERROR ActionDriver - Element is not visible: Web Driver was not intialized.
+2026-06-30 12:07:14 [TestNG-test-OrangeHRMTest-4] ERROR ActionDriver - Error Message: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+2026-06-30 12:07:14 [TestNG-test-OrangeHRMTest-4] ERROR ActionDriver - Unable to enter text into textbox: Web Driver was not intialized.
+2026-06-30 12:07:14 [TestNG-test-OrangeHRMTest-4] ERROR ActionDriver - Error Message: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.webDr" is null
+2026-06-30 12:07:14 [TestNG-test-OrangeHRMTest-4] ERROR ActionDriver - Element is not visible: Web Driver was not intialized.
+2026-06-30 12:07:14 [TestNG-test-OrangeHRMTest-4] ERROR ActionDriver - Error Message: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+2026-06-30 12:07:14 [TestNG-test-OrangeHRMTest-4] ERROR ActionDriver - Unable to enter text into textbox: Web Driver was not intialized.
+2026-06-30 12:07:14 [TestNG-test-OrangeHRMTest-4] ERROR ActionDriver - Error Message: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.webDr" is null
+2026-06-30 12:07:14 [TestNG-test-OrangeHRMTest-4] ERROR ActionDriver - Element is not clickable: Web Driver was not intialized.
+2026-06-30 12:07:14 [TestNG-test-OrangeHRMTest-4] ERROR ActionDriver - Error message: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+2026-06-30 12:07:14 [TestNG-test-OrangeHRMTest-4] ERROR ActionDriver - Unable to click the element: Web Driver was not intialized.
+2026-06-30 12:07:14 [TestNG-test-OrangeHRMTest-4] ERROR ActionDriver - Error message: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.webDr" is null
+2026-06-30 12:07:14 [TestNG-test-OrangeHRMTest-4] ERROR ActionDriver - Element is not visible: Web Driver was not intialized.
+2026-06-30 12:07:14 [TestNG-test-OrangeHRMTest-4] ERROR ActionDriver - Error Message: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+2026-06-30 12:07:14 [TestNG-test-OrangeHRMTest-4] ERROR ActionDriver - Element is not visible: Web Driver was not intialized.
+2026-06-30 12:07:14 [TestNG-test-OrangeHRMTest-4] ERROR ActionDriver - Error message: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.webDr" is null
+2026-06-30 12:07:15 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Element is not visible: Web Driver was not intialized.
+2026-06-30 12:07:15 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Error Message: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+2026-06-30 12:07:15 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Unable to enter text into textbox: Web Driver was not intialized.
+2026-06-30 12:07:15 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Error Message: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.webDr" is null
+2026-06-30 12:07:15 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Element is not visible: Web Driver was not intialized.
+2026-06-30 12:07:15 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Error Message: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+2026-06-30 12:07:15 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Unable to enter text into textbox: Web Driver was not intialized.
+2026-06-30 12:07:15 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Error Message: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.webDr" is null
+2026-06-30 12:07:15 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Element is not clickable: Web Driver was not intialized.
+2026-06-30 12:07:15 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Error message: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+2026-06-30 12:07:15 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Unable to click the element: Web Driver was not intialized.
+2026-06-30 12:07:15 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Error message: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.webDr" is null
+2026-06-30 12:07:15 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Element is not visible: Web Driver was not intialized.
+2026-06-30 12:07:15 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Error Message: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+2026-06-30 12:07:15 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Element is not visible: Web Driver was not intialized.
+2026-06-30 12:07:15 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Error message: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.webDr" is null
+2026-06-30 12:07:18 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is a Error message for class: LoginPageTest
+2026-06-30 12:07:18 [TestNG-test-OrangeHRMTest-3] FATAL BaseClass - This is a fatal message for class: LoginPageTest
+2026-06-30 12:31:19 [TestNG-test-OrangeHRMTest-4] ERROR BaseClass - This is a Error message for class: HomePageTest
+2026-06-30 12:31:19 [TestNG-test-OrangeHRMTest-4] FATAL BaseClass - This is a fatal message for class: HomePageTest
+2026-06-30 12:31:19 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is a Error message for class: LoginPageTest
+2026-06-30 12:31:19 [TestNG-test-OrangeHRMTest-3] FATAL BaseClass - This is a fatal message for class: LoginPageTest
+2026-06-30 12:31:19 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is a Error message for class: DummyClass
+2026-06-30 12:31:19 [TestNG-test-OrangeHRMTest-1] FATAL BaseClass - This is a fatal message for class: DummyClass
+2026-06-30 12:31:19 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is a Error message for class: DummyClass2
+2026-06-30 12:31:19 [TestNG-test-OrangeHRMTest-2] FATAL BaseClass - This is a fatal message for class: DummyClass2
+2026-06-30 12:39:43 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is a Error message for class: LoginPageTest
+2026-06-30 12:39:43 [TestNG-test-OrangeHRMTest-3] FATAL BaseClass - This is a fatal message for class: LoginPageTest
+2026-06-30 12:39:43 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is a Error message for class: DummyClass2
+2026-06-30 12:39:43 [TestNG-test-OrangeHRMTest-2] FATAL BaseClass - This is a fatal message for class: DummyClass2
+2026-06-30 12:39:43 [TestNG-test-OrangeHRMTest-4] ERROR BaseClass - This is a Error message for class: HomePageTest
+2026-06-30 12:39:43 [TestNG-test-OrangeHRMTest-4] FATAL BaseClass - This is a fatal message for class: HomePageTest
+2026-06-30 12:39:43 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is a Error message for class: DummyClass
+2026-06-30 12:39:43 [TestNG-test-OrangeHRMTest-1] FATAL BaseClass - This is a fatal message for class: DummyClass
+2026-06-30 12:39:53 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is a Error message for class: LoginPageTest
+2026-06-30 12:39:53 [TestNG-test-OrangeHRMTest-3] FATAL BaseClass - This is a fatal message for class: LoginPageTest
+2026-06-30 12:42:47 [TestNG-test-OrangeHRMTest-4] ERROR BaseClass - This is a Error message for class: HomePageTest
+2026-06-30 12:42:47 [TestNG-test-OrangeHRMTest-4] FATAL BaseClass - This is a fatal message for class: HomePageTest
+2026-06-30 12:42:47 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is a Error message for class: LoginPageTest
+2026-06-30 12:42:47 [TestNG-test-OrangeHRMTest-3] FATAL BaseClass - This is a fatal message for class: LoginPageTest
+2026-06-30 12:42:47 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is a Error message for class: DummyClass
+2026-06-30 12:42:47 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is a Error message for class: DummyClass2
+2026-06-30 12:42:47 [TestNG-test-OrangeHRMTest-1] FATAL BaseClass - This is a fatal message for class: DummyClass
+2026-06-30 12:42:47 [TestNG-test-OrangeHRMTest-2] FATAL BaseClass - This is a fatal message for class: DummyClass2
+2026-06-30 12:42:58 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is a Error message for class: LoginPageTest
+2026-06-30 12:42:58 [TestNG-test-OrangeHRMTest-3] FATAL BaseClass - This is a fatal message for class: LoginPageTest
+2026-06-30 12:53:29 [TestNG-test-OrangeHRMTest-5] ERROR BaseClass - This is a Error message for class: HomePageTest
+2026-06-30 12:53:29 [TestNG-test-OrangeHRMTest-5] FATAL BaseClass - This is a fatal message for class: HomePageTest
+2026-06-30 12:53:30 [TestNG-test-OrangeHRMTest-4] ERROR BaseClass - This is a Error message for class: LoginPageTest
+2026-06-30 12:53:30 [TestNG-test-OrangeHRMTest-4] FATAL BaseClass - This is a fatal message for class: LoginPageTest
+2026-06-30 12:53:30 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - This is a Error message for class: DummyClass
+2026-06-30 12:53:30 [TestNG-test-OrangeHRMTest-1] FATAL BaseClass - This is a fatal message for class: DummyClass
+2026-06-30 12:53:30 [TestNG-test-OrangeHRMTest-3] ERROR BaseClass - This is a Error message for class: LoginPageTest
+2026-06-30 12:53:30 [TestNG-test-OrangeHRMTest-3] FATAL BaseClass - This is a fatal message for class: LoginPageTest
+2026-06-30 12:53:30 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is a Error message for class: DummyClass2
+2026-06-30 12:53:30 [TestNG-test-OrangeHRMTest-2] FATAL BaseClass - This is a fatal message for class: DummyClass2

@@ -12,7 +12,7 @@ public class DummyClass extends BaseClass{
 		System.out.println("==============================================================================");
 		System.out.println("Running dummyTest from " + this.getClass().getName() + " class.");
 		System.out.println("==============================================================================");
-		String title = webDr.getTitle();
+		String title = getWebDriver().getTitle();
 		assert title.equals("OrangeHRM"):"Test Failed : Title is not matching.";
 		
 		System.out.println("Test Passed : Title matches!");
