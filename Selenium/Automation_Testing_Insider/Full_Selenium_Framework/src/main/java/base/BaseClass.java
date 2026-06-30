@@ -18,7 +18,7 @@ import org.testng.annotations.BeforeSuite;
 public class BaseClass {
 
 	protected static Properties properties;
-	protected WebDriver driver;
+	protected WebDriver webDr;
 		
 	//initialize webdriver based on the browser defined in the config file
 	private void loadBrowser() {
@@ -27,15 +27,15 @@ public class BaseClass {
 		
 		switch(browser) {
 			case "chrome" : {
-				driver = new ChromeDriver();
+				webDr = new ChromeDriver();
 				break;
 			}
 			case "firefox" : {
-				driver = new FirefoxDriver();
+				webDr = new FirefoxDriver();
 				break;
 			}
 			case "edge" : {
-				driver = new EdgeDriver();
+				webDr = new EdgeDriver();
 				break;
 			}
 			default : {
@@ -47,14 +47,14 @@ public class BaseClass {
 	
 	private void configureBrowser() {
 		//implicit wait
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Integer.parseInt(properties.getProperty("implicitwait"))));
+		webDr.manage().timeouts().implicitlyWait(Duration.ofSeconds(Integer.parseInt(properties.getProperty("implicitwait"))));
 		
 		//maximize browser window
-		driver.manage().window().maximize();
+		webDr.manage().window().maximize();
 		
 		//navigate to OrangeHRM website
 		try {
-			driver.get(properties.getProperty("url"));
+			webDr.get(properties.getProperty("url"));
 		} catch (Exception e) {
 			System.out.println("Failed to navigate to the URL: " + e.getMessage());
 		}
@@ -68,7 +68,7 @@ public class BaseClass {
 	
 	//access the driver from outside the base class
 	public WebDriver getDriver() {
-		return driver;
+		return webDr;
 	}
 	
 	//access the properties config file
@@ -78,7 +78,7 @@ public class BaseClass {
 	
 	//set the driver from outside the bass class
 	public void setDriver(WebDriver wb) {
-		driver = wb;
+		webDr = wb;
 	}
 	
 	@BeforeSuite
@@ -99,9 +99,9 @@ public class BaseClass {
 	
 	@AfterMethod
 	public void shutdown() {
-		if(driver!=null) {
+		if(webDr!=null) {
 			try {
-				driver.quit();
+				webDr.quit();
 			} catch (Exception e) {
 				System.out.println("unable to quit the driver: " + e.getMessage());
 			}

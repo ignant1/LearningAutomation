@@ -8,11 +8,11 @@ import actiondriver.ActionDriver;
 public class LoginPage {
 
 	//Define Class Objects
-	private ActionDriver AD;
+	private ActionDriver actionDr;
 	
 	//Initialize the ActionDriver object by passing the WebDriver
 	public LoginPage(WebDriver wd) {
-		AD = new ActionDriver(wd);
+		actionDr = new ActionDriver(wd);
 	}
 	
 	//Define locators
@@ -23,23 +23,23 @@ public class LoginPage {
 	
 	//method to perform login
 	public void performLogin(String userName, String passWord) {
-		AD.enterText(usernameField, userName);
-		AD.enterText(passwordField, passWord);
-		AD.click(loginButton);
+		actionDr.enterText(usernameField, userName);
+		actionDr.enterText(passwordField, passWord);
+		actionDr.click(loginButton);
 	}
 	
 	//method to check error message is displayed
 	public boolean isErrorMessageDisplayed() {
-		return AD.isDisplayed(errorMessage);
+		return actionDr.isDisplayed(errorMessage);
 	}
 	
 	//method to get the text from error message
 	public String getErrorMessageText() {
-		return AD.getText(errorMessage);
+		return actionDr.getText(errorMessage);
 	}
 	
 	//method to verify error message is correct
 	public boolean  verifyErrorMessage(String expectedMessage) {
-		return AD.compareText(errorMessage, getErrorMessageText());
+		return actionDr.compareText(errorMessage, getErrorMessageText());
 	}
 }

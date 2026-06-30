@@ -21,7 +21,7 @@ public class LoginPageTest extends BaseClass{
 	}
 	
 	@Test
-	public void validLoginTest() {
+	public void TC01_validLoginTest() {
 		loginPage.performLogin("admin", "admin123");
 		Assert.assertTrue(homePage.isAdminTabVisible(),"Admin tab should be visible after successfull login");
 		homePage.logout();
@@ -29,7 +29,7 @@ public class LoginPageTest extends BaseClass{
 	}
 
 	@Test
-	public void invalidLoginTest() {
+	public void TC02_invalidLoginTest() {
 		loginPage.performLogin("admin", "admin12");
 		String expectedErrorMessage = "Invalid credentials";
 		Assert.assertTrue(loginPage.verifyErrorMessage(expectedErrorMessage),"Test Failed: invalid error message");

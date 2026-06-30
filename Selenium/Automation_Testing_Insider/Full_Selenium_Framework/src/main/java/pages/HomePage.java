@@ -8,7 +8,7 @@ import actiondriver.ActionDriver;
 public class HomePage {
 	
 	//class variables
-	private ActionDriver AD;
+	private ActionDriver actionDr;
 	//define locators by class
 	private By adminTab = By.xpath("//span[text()='Admin']");
 	private By userIDButton = By.className("oxd-userdropdown-name");
@@ -18,23 +18,23 @@ public class HomePage {
 	
 	//Initialize the ActionDriver object by passing the WebDriver
 	public HomePage(WebDriver wd) {
-		AD = new ActionDriver(wd);
+		actionDr = new ActionDriver(wd);
 	}
 	
 	//Method to verify the admin tab is visible
 	public boolean isAdminTabVisible() {
-		return AD.isDisplayed(adminTab);
+		return actionDr.isDisplayed(adminTab);
 	}
 	
 	//method to verify OrangeHRM logo is present
 	public boolean verifyOrangeHRMLogo() {
-		return AD.isDisplayed(orangeHRMLogo);
+		return actionDr.isDisplayed(orangeHRMLogo);
 	}
 	
 	//method to perform logout operation
 	public void logout() {
-		AD.click(userIDButton);
-		AD.click(logoutButton);
+		actionDr.click(userIDButton);
+		actionDr.click(logoutButton);
 	}
 	
 }
