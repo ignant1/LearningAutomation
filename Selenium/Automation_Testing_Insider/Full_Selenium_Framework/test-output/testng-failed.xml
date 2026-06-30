@@ -3,23 +3,13 @@
 <suite name="Failed suite [OrangeHRMSuite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="OrangeHRMTest(failed)">
     <classes>
-      <class name="test.HomePageTest">
-        <methods>
-          <include name="setupPages"/>
-          <include name="setup"/>
-          <include name="shutdown"/>
-          <include name="verifyOrnageHRMLogo"/>
-          <include name="loadConfig"/>
-        </methods>
-      </class> <!-- test.HomePageTest -->
       <class name="test.LoginPageTest">
         <methods>
+          <include name="shutdown"/>
           <include name="setupPages"/>
           <include name="setup"/>
-          <include name="shutdown"/>
-          <include name="TC01_validLoginTest"/>
-          <include name="loadConfig"/>
           <include name="TC02_invalidLoginTest"/>
+          <include name="loadConfig"/>
         </methods>
       </class> <!-- test.LoginPageTest -->
     </classes>

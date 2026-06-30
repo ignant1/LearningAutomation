@@ -4,9 +4,9 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import base.BaseClass;
-import pages.HomePage;
-import pages.LoginPage;
+import demo.project.base.BaseClass;
+import demo.project.pages.HomePage;
+import demo.project.pages.LoginPage;
 
 public class LoginPageTest extends BaseClass{
 
@@ -35,10 +35,10 @@ public class LoginPageTest extends BaseClass{
 	@Test
 	public void TC02_invalidLoginTest() {
 		System.out.println("==============================================================================");
-		System.out.println("Running test case TC02_validLoginTest.");
+		System.out.println("Running test case TC02_invalidLoginTest.");
 		System.out.println("==============================================================================");
 		loginPage.performLogin("admin", "admin12");
-		String expectedErrorMessage = "Invalid credentials";
+		String expectedErrorMessage = "Invalid credentials1";
 		Assert.assertTrue(loginPage.verifyErrorMessage(expectedErrorMessage),"Test Failed: invalid error message");
 		staticwait(2);
 	}

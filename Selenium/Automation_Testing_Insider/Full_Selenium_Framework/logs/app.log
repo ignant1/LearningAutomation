@@ -1,0 +1,670 @@
+2026-06-30 00:25:35 [main] INFO  BaseClass - Going to get the data from the config file.
+2026-06-30 00:25:35 [main] INFO  BaseClass - Streaming the data from the file.
+2026-06-30 00:25:35 [main] INFO  BaseClass - Loading the data into the Properties object.
+2026-06-30 00:25:35 [main] INFO  BaseClass - config.properties file loaded.
+2026-06-30 00:25:35 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:25:35 [main] INFO  BaseClass - Setting up the WebDriver for: DummyClass
+2026-06-30 00:25:35 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:25:35 [main] INFO  BaseClass - Initializing Browser.
+2026-06-30 00:25:35 [main] INFO  BaseClass - Launching Chrom Browser.
+2026-06-30 00:25:36 [main] INFO  BaseClass - Finished loading the browser.
+2026-06-30 00:25:36 [main] INFO  BaseClass - Configuring the browser.
+2026-06-30 00:25:36 [main] INFO  BaseClass - Setup implicit wait for the browser
+2026-06-30 00:25:36 [main] INFO  BaseClass - Maximized windows size for the browser.
+2026-06-30 00:25:36 [main] INFO  BaseClass - Going to load the web page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-30 00:25:38 [main] INFO  BaseClass - Finished configuring the browser.
+2026-06-30 00:25:38 [main] INFO  BaseClass - Web Driver initialized and browser maximized.
+2026-06-30 00:25:38 [main] TRACE BaseClass - This is a Trace message for class: DummyClass
+2026-06-30 00:25:38 [main] DEBUG BaseClass - This is a debug message for class: DummyClass
+2026-06-30 00:25:38 [main] WARN  BaseClass - This is a warn message for class: DummyClass
+2026-06-30 00:25:38 [main] INFO  BaseClass - Pausing the test for 2 seconds.
+2026-06-30 00:25:40 [main] INFO  BaseClass - Waited for 2 seconds.
+2026-06-30 00:25:40 [main] INFO  ActionDriver - Action Driver constructor called.
+2026-06-30 00:25:40 [main] INFO  BaseClass - Getting the data from the congfig file.
+2026-06-30 00:25:40 [main] INFO  ActionDriver - Setup the WebDriver wait.
+2026-06-30 00:25:40 [main] INFO  BaseClass - Action Driver variable was null so created the instance.
+2026-06-30 00:25:40 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:25:40 [main] INFO  BaseClass - going to shutdown the driver.
+2026-06-30 00:25:40 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:25:40 [main] INFO  BaseClass - Web Driver was not null and quiting the driver.
+2026-06-30 00:25:40 [main] INFO  BaseClass - Nullifying Web Driver and Action Driver instances.
+2026-06-30 00:25:40 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:25:40 [main] INFO  BaseClass - Setting up the WebDriver for: DummyClass2
+2026-06-30 00:25:40 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:25:40 [main] INFO  BaseClass - Initializing Browser.
+2026-06-30 00:25:40 [main] INFO  BaseClass - Launching Chrom Browser.
+2026-06-30 00:25:41 [main] INFO  BaseClass - Finished loading the browser.
+2026-06-30 00:25:41 [main] INFO  BaseClass - Configuring the browser.
+2026-06-30 00:25:41 [main] INFO  BaseClass - Setup implicit wait for the browser
+2026-06-30 00:25:41 [main] INFO  BaseClass - Maximized windows size for the browser.
+2026-06-30 00:25:41 [main] INFO  BaseClass - Going to load the web page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-30 00:25:43 [main] INFO  BaseClass - Finished configuring the browser.
+2026-06-30 00:25:43 [main] INFO  BaseClass - Web Driver initialized and browser maximized.
+2026-06-30 00:25:43 [main] TRACE BaseClass - This is a Trace message for class: DummyClass2
+2026-06-30 00:25:43 [main] DEBUG BaseClass - This is a debug message for class: DummyClass2
+2026-06-30 00:25:43 [main] WARN  BaseClass - This is a warn message for class: DummyClass2
+2026-06-30 00:25:43 [main] INFO  BaseClass - Pausing the test for 2 seconds.
+2026-06-30 00:25:45 [main] INFO  BaseClass - Waited for 2 seconds.
+2026-06-30 00:25:45 [main] INFO  ActionDriver - Action Driver constructor called.
+2026-06-30 00:25:45 [main] INFO  BaseClass - Getting the data from the congfig file.
+2026-06-30 00:25:45 [main] INFO  ActionDriver - Setup the WebDriver wait.
+2026-06-30 00:25:45 [main] INFO  BaseClass - Action Driver variable was null so created the instance.
+2026-06-30 00:25:45 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:25:45 [main] INFO  BaseClass - going to shutdown the driver.
+2026-06-30 00:25:45 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:25:45 [main] INFO  BaseClass - Web Driver was not null and quiting the driver.
+2026-06-30 00:25:45 [main] INFO  BaseClass - Nullifying Web Driver and Action Driver instances.
+2026-06-30 00:25:45 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:25:45 [main] INFO  BaseClass - Setting up the WebDriver for: LoginPageTest
+2026-06-30 00:25:45 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:25:45 [main] INFO  BaseClass - Initializing Browser.
+2026-06-30 00:25:45 [main] INFO  BaseClass - Launching Chrom Browser.
+2026-06-30 00:25:46 [main] INFO  BaseClass - Finished loading the browser.
+2026-06-30 00:25:46 [main] INFO  BaseClass - Configuring the browser.
+2026-06-30 00:25:46 [main] INFO  BaseClass - Setup implicit wait for the browser
+2026-06-30 00:25:46 [main] INFO  BaseClass - Maximized windows size for the browser.
+2026-06-30 00:25:46 [main] INFO  BaseClass - Going to load the web page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-30 00:25:48 [main] INFO  BaseClass - Finished configuring the browser.
+2026-06-30 00:25:48 [main] INFO  BaseClass - Web Driver initialized and browser maximized.
+2026-06-30 00:25:48 [main] TRACE BaseClass - This is a Trace message for class: LoginPageTest
+2026-06-30 00:25:48 [main] DEBUG BaseClass - This is a debug message for class: LoginPageTest
+2026-06-30 00:25:48 [main] WARN  BaseClass - This is a warn message for class: LoginPageTest
+2026-06-30 00:25:48 [main] INFO  BaseClass - Pausing the test for 2 seconds.
+2026-06-30 00:25:50 [main] INFO  BaseClass - Waited for 2 seconds.
+2026-06-30 00:25:50 [main] INFO  ActionDriver - Action Driver constructor called.
+2026-06-30 00:25:50 [main] INFO  BaseClass - Getting the data from the congfig file.
+2026-06-30 00:25:50 [main] INFO  ActionDriver - Setup the WebDriver wait.
+2026-06-30 00:25:50 [main] INFO  BaseClass - Action Driver variable was null so created the instance.
+2026-06-30 00:25:50 [main] INFO  BaseClass - Going to Return the Action Driver.
+2026-06-30 00:25:50 [main] INFO  BaseClass - Returning the Action Driver.
+2026-06-30 00:25:50 [main] INFO  BaseClass - Going to Return the Action Driver.
+2026-06-30 00:25:50 [main] INFO  BaseClass - Returning the Action Driver.
+2026-06-30 00:25:50 [main] INFO  ActionDriver - Running the Action Driver enterText methodBy.name: username
+2026-06-30 00:25:50 [main] INFO  ActionDriver - The text to enter is 'admin'
+2026-06-30 00:25:50 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.name: username
+2026-06-30 00:25:51 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:25:51 [main] INFO  ActionDriver - entered the text: 'admin'
+2026-06-30 00:25:51 [main] INFO  ActionDriver - Running the Action Driver enterText methodBy.cssSelector: input[type='password']
+2026-06-30 00:25:51 [main] INFO  ActionDriver - The text to enter is 'admin123'
+2026-06-30 00:25:51 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.cssSelector: input[type='password']
+2026-06-30 00:25:51 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:25:51 [main] INFO  ActionDriver - entered the text: 'admin123'
+2026-06-30 00:25:51 [main] INFO  ActionDriver - Running the Action Driver click method.By.xpath: //button[text()=' Login ']
+2026-06-30 00:25:51 [main] INFO  ActionDriver - Running the Action Driver waitforElementToBeClickable method: By.xpath: //button[text()=' Login ']
+2026-06-30 00:25:51 [main] INFO  ActionDriver - Element is now clickable.
+2026-06-30 00:25:51 [main] INFO  ActionDriver - performed the click
+2026-06-30 00:25:51 [main] INFO  ActionDriver - Running the Action Driver isDisplayed methodBy.xpath: //span[text()='Admin']
+2026-06-30 00:25:51 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.xpath: //span[text()='Admin']
+2026-06-30 00:25:52 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:25:52 [main] INFO  ActionDriver - Returning boolean if the element is displayed or not.
+2026-06-30 00:25:52 [main] INFO  ActionDriver - Running the Action Driver click method.By.className: oxd-userdropdown-name
+2026-06-30 00:25:52 [main] INFO  ActionDriver - Running the Action Driver waitforElementToBeClickable method: By.className: oxd-userdropdown-name
+2026-06-30 00:25:52 [main] INFO  ActionDriver - Element is now clickable.
+2026-06-30 00:25:52 [main] INFO  ActionDriver - performed the click
+2026-06-30 00:25:52 [main] INFO  ActionDriver - Running the Action Driver click method.By.linkText: Logout
+2026-06-30 00:25:52 [main] INFO  ActionDriver - Running the Action Driver waitforElementToBeClickable method: By.linkText: Logout
+2026-06-30 00:25:52 [main] INFO  ActionDriver - Element is now clickable.
+2026-06-30 00:25:53 [main] INFO  ActionDriver - performed the click
+2026-06-30 00:25:53 [main] INFO  BaseClass - Pausing the test for 2 seconds.
+2026-06-30 00:25:55 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:25:55 [main] INFO  BaseClass - going to shutdown the driver.
+2026-06-30 00:25:55 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:25:55 [main] INFO  BaseClass - Web Driver was not null and quiting the driver.
+2026-06-30 00:25:55 [main] INFO  BaseClass - Nullifying Web Driver and Action Driver instances.
+2026-06-30 00:25:55 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:25:55 [main] INFO  BaseClass - Setting up the WebDriver for: LoginPageTest
+2026-06-30 00:25:55 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:25:55 [main] INFO  BaseClass - Initializing Browser.
+2026-06-30 00:25:55 [main] INFO  BaseClass - Launching Chrom Browser.
+2026-06-30 00:25:56 [main] INFO  BaseClass - Finished loading the browser.
+2026-06-30 00:25:56 [main] INFO  BaseClass - Configuring the browser.
+2026-06-30 00:25:56 [main] INFO  BaseClass - Setup implicit wait for the browser
+2026-06-30 00:25:56 [main] INFO  BaseClass - Maximized windows size for the browser.
+2026-06-30 00:25:56 [main] INFO  BaseClass - Going to load the web page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-30 00:25:58 [main] INFO  BaseClass - Finished configuring the browser.
+2026-06-30 00:25:58 [main] INFO  BaseClass - Web Driver initialized and browser maximized.
+2026-06-30 00:25:58 [main] TRACE BaseClass - This is a Trace message for class: LoginPageTest
+2026-06-30 00:25:58 [main] DEBUG BaseClass - This is a debug message for class: LoginPageTest
+2026-06-30 00:25:58 [main] WARN  BaseClass - This is a warn message for class: LoginPageTest
+2026-06-30 00:25:58 [main] INFO  BaseClass - Pausing the test for 2 seconds.
+2026-06-30 00:26:00 [main] INFO  BaseClass - Waited for 2 seconds.
+2026-06-30 00:26:00 [main] INFO  ActionDriver - Action Driver constructor called.
+2026-06-30 00:26:00 [main] INFO  BaseClass - Getting the data from the congfig file.
+2026-06-30 00:26:00 [main] INFO  ActionDriver - Setup the WebDriver wait.
+2026-06-30 00:26:00 [main] INFO  BaseClass - Action Driver variable was null so created the instance.
+2026-06-30 00:26:00 [main] INFO  BaseClass - Going to Return the Action Driver.
+2026-06-30 00:26:00 [main] INFO  BaseClass - Returning the Action Driver.
+2026-06-30 00:26:00 [main] INFO  BaseClass - Going to Return the Action Driver.
+2026-06-30 00:26:00 [main] INFO  BaseClass - Returning the Action Driver.
+2026-06-30 00:26:00 [main] INFO  ActionDriver - Running the Action Driver enterText methodBy.name: username
+2026-06-30 00:26:00 [main] INFO  ActionDriver - The text to enter is 'admin'
+2026-06-30 00:26:00 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.name: username
+2026-06-30 00:26:00 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:26:00 [main] INFO  ActionDriver - entered the text: 'admin'
+2026-06-30 00:26:00 [main] INFO  ActionDriver - Running the Action Driver enterText methodBy.cssSelector: input[type='password']
+2026-06-30 00:26:00 [main] INFO  ActionDriver - The text to enter is 'admin12'
+2026-06-30 00:26:00 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.cssSelector: input[type='password']
+2026-06-30 00:26:00 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:26:01 [main] INFO  ActionDriver - entered the text: 'admin12'
+2026-06-30 00:26:01 [main] INFO  ActionDriver - Running the Action Driver click method.By.xpath: //button[text()=' Login ']
+2026-06-30 00:26:01 [main] INFO  ActionDriver - Running the Action Driver waitforElementToBeClickable method: By.xpath: //button[text()=' Login ']
+2026-06-30 00:26:01 [main] INFO  ActionDriver - Element is now clickable.
+2026-06-30 00:26:01 [main] INFO  ActionDriver - performed the click
+2026-06-30 00:26:01 [main] INFO  ActionDriver - Running the Action Driver getText method
+2026-06-30 00:26:01 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.xpath: //p[text()='Invalid credentials']
+2026-06-30 00:26:02 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:26:02 [main] INFO  ActionDriver - returning the text from the element.
+2026-06-30 00:26:02 [main] INFO  ActionDriver - Running the Action Driver compareText methodBy.xpath: //p[text()='Invalid credentials']
+2026-06-30 00:26:02 [main] INFO  ActionDriver - The text to compare is 'Invalid credentials'
+2026-06-30 00:26:02 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.xpath: //p[text()='Invalid credentials']
+2026-06-30 00:26:02 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:26:02 [main] INFO  ActionDriver - Text Matches:
+2026-06-30 00:26:02 [main] INFO  ActionDriver - Actual Text: "Invalid credentials" matches Expected Text : "Invalid credentials" 
+2026-06-30 00:26:02 [main] INFO  BaseClass - Pausing the test for 2 seconds.
+2026-06-30 00:26:04 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:26:04 [main] INFO  BaseClass - going to shutdown the driver.
+2026-06-30 00:26:04 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:26:04 [main] INFO  BaseClass - Web Driver was not null and quiting the driver.
+2026-06-30 00:26:04 [main] INFO  BaseClass - Nullifying Web Driver and Action Driver instances.
+2026-06-30 00:26:04 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:26:04 [main] INFO  BaseClass - Setting up the WebDriver for: HomePageTest
+2026-06-30 00:26:04 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:26:04 [main] INFO  BaseClass - Initializing Browser.
+2026-06-30 00:26:04 [main] INFO  BaseClass - Launching Chrom Browser.
+2026-06-30 00:26:05 [main] INFO  BaseClass - Finished loading the browser.
+2026-06-30 00:26:05 [main] INFO  BaseClass - Configuring the browser.
+2026-06-30 00:26:05 [main] INFO  BaseClass - Setup implicit wait for the browser
+2026-06-30 00:26:05 [main] INFO  BaseClass - Maximized windows size for the browser.
+2026-06-30 00:26:05 [main] INFO  BaseClass - Going to load the web page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-30 00:26:07 [main] INFO  BaseClass - Finished configuring the browser.
+2026-06-30 00:26:07 [main] INFO  BaseClass - Web Driver initialized and browser maximized.
+2026-06-30 00:26:07 [main] TRACE BaseClass - This is a Trace message for class: HomePageTest
+2026-06-30 00:26:07 [main] DEBUG BaseClass - This is a debug message for class: HomePageTest
+2026-06-30 00:26:07 [main] WARN  BaseClass - This is a warn message for class: HomePageTest
+2026-06-30 00:26:07 [main] INFO  BaseClass - Pausing the test for 2 seconds.
+2026-06-30 00:26:09 [main] INFO  BaseClass - Waited for 2 seconds.
+2026-06-30 00:26:09 [main] INFO  ActionDriver - Action Driver constructor called.
+2026-06-30 00:26:09 [main] INFO  BaseClass - Getting the data from the congfig file.
+2026-06-30 00:26:09 [main] INFO  ActionDriver - Setup the WebDriver wait.
+2026-06-30 00:26:09 [main] INFO  BaseClass - Action Driver variable was null so created the instance.
+2026-06-30 00:26:09 [main] INFO  BaseClass - Going to Return the Action Driver.
+2026-06-30 00:26:09 [main] INFO  BaseClass - Returning the Action Driver.
+2026-06-30 00:26:09 [main] INFO  BaseClass - Going to Return the Action Driver.
+2026-06-30 00:26:09 [main] INFO  BaseClass - Returning the Action Driver.
+2026-06-30 00:26:09 [main] INFO  ActionDriver - Running the Action Driver enterText methodBy.name: username
+2026-06-30 00:26:09 [main] INFO  ActionDriver - The text to enter is 'admin'
+2026-06-30 00:26:09 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.name: username
+2026-06-30 00:26:09 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:26:09 [main] INFO  ActionDriver - entered the text: 'admin'
+2026-06-30 00:26:09 [main] INFO  ActionDriver - Running the Action Driver enterText methodBy.cssSelector: input[type='password']
+2026-06-30 00:26:09 [main] INFO  ActionDriver - The text to enter is 'admin123'
+2026-06-30 00:26:09 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.cssSelector: input[type='password']
+2026-06-30 00:26:09 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:26:09 [main] INFO  ActionDriver - entered the text: 'admin123'
+2026-06-30 00:26:09 [main] INFO  ActionDriver - Running the Action Driver click method.By.xpath: //button[text()=' Login ']
+2026-06-30 00:26:09 [main] INFO  ActionDriver - Running the Action Driver waitforElementToBeClickable method: By.xpath: //button[text()=' Login ']
+2026-06-30 00:26:09 [main] INFO  ActionDriver - Element is now clickable.
+2026-06-30 00:26:09 [main] INFO  ActionDriver - performed the click
+2026-06-30 00:26:09 [main] INFO  ActionDriver - Running the Action Driver isDisplayed methodBy.xpath: //div[@class='oxd-brand-banner']//img
+2026-06-30 00:26:09 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.xpath: //div[@class='oxd-brand-banner']//img
+2026-06-30 00:26:11 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:26:11 [main] INFO  ActionDriver - Returning boolean if the element is displayed or not.
+2026-06-30 00:26:11 [main] INFO  ActionDriver - Running the Action Driver click method.By.className: oxd-userdropdown-name
+2026-06-30 00:26:11 [main] INFO  ActionDriver - Running the Action Driver waitforElementToBeClickable method: By.className: oxd-userdropdown-name
+2026-06-30 00:26:11 [main] INFO  ActionDriver - Element is now clickable.
+2026-06-30 00:26:11 [main] INFO  ActionDriver - performed the click
+2026-06-30 00:26:11 [main] INFO  ActionDriver - Running the Action Driver click method.By.linkText: Logout
+2026-06-30 00:26:11 [main] INFO  ActionDriver - Running the Action Driver waitforElementToBeClickable method: By.linkText: Logout
+2026-06-30 00:26:11 [main] INFO  ActionDriver - Element is now clickable.
+2026-06-30 00:26:12 [main] INFO  ActionDriver - performed the click
+2026-06-30 00:26:12 [main] INFO  BaseClass - Pausing the test for 2 seconds.
+2026-06-30 00:26:14 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:26:14 [main] INFO  BaseClass - going to shutdown the driver.
+2026-06-30 00:26:14 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:26:14 [main] INFO  BaseClass - Web Driver was not null and quiting the driver.
+2026-06-30 00:26:14 [main] INFO  BaseClass - Nullifying Web Driver and Action Driver instances.
+2026-06-30 00:26:46 [main] INFO  BaseClass - Going to get the data from the config file.
+2026-06-30 00:26:46 [main] INFO  BaseClass - Streaming the data from the file.
+2026-06-30 00:26:46 [main] INFO  BaseClass - Loading the data into the Properties object.
+2026-06-30 00:26:46 [main] INFO  BaseClass - config.properties file loaded.
+2026-06-30 00:26:46 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:26:46 [main] INFO  BaseClass - Setting up the WebDriver for: DummyClass
+2026-06-30 00:26:46 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:26:46 [main] INFO  BaseClass - Initializing Browser.
+2026-06-30 00:26:46 [main] INFO  BaseClass - Launching Chrom Browser.
+2026-06-30 00:26:47 [main] INFO  BaseClass - Finished loading the browser.
+2026-06-30 00:26:47 [main] INFO  BaseClass - Configuring the browser.
+2026-06-30 00:26:47 [main] INFO  BaseClass - Setup implicit wait for the browser
+2026-06-30 00:26:47 [main] INFO  BaseClass - Maximized windows size for the browser.
+2026-06-30 00:26:47 [main] INFO  BaseClass - Going to load the web page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-30 00:26:49 [main] INFO  BaseClass - Finished configuring the browser.
+2026-06-30 00:26:49 [main] INFO  BaseClass - Web Driver initialized and browser maximized.
+2026-06-30 00:26:49 [main] TRACE BaseClass - This is a Trace message for class: DummyClass
+2026-06-30 00:26:49 [main] DEBUG BaseClass - This is a debug message for class: DummyClass
+2026-06-30 00:26:49 [main] WARN  BaseClass - This is a warn message for class: DummyClass
+2026-06-30 00:26:49 [main] INFO  BaseClass - Pausing the test for 2 seconds.
+2026-06-30 00:26:51 [main] INFO  BaseClass - Waited for 2 seconds.
+2026-06-30 00:26:51 [main] INFO  ActionDriver - Action Driver constructor called.
+2026-06-30 00:26:51 [main] INFO  BaseClass - Getting the data from the congfig file.
+2026-06-30 00:26:51 [main] INFO  ActionDriver - Setup the WebDriver wait.
+2026-06-30 00:26:51 [main] INFO  BaseClass - Action Driver variable was null so created the instance.
+2026-06-30 00:26:51 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:26:51 [main] INFO  BaseClass - going to shutdown the driver.
+2026-06-30 00:26:51 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:26:51 [main] INFO  BaseClass - Web Driver was not null and quiting the driver.
+2026-06-30 00:26:52 [main] INFO  BaseClass - Nullifying Web Driver and Action Driver instances.
+2026-06-30 00:26:52 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:26:52 [main] INFO  BaseClass - Setting up the WebDriver for: DummyClass2
+2026-06-30 00:26:52 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:26:52 [main] INFO  BaseClass - Initializing Browser.
+2026-06-30 00:26:52 [main] INFO  BaseClass - Launching Chrom Browser.
+2026-06-30 00:26:52 [main] INFO  BaseClass - Finished loading the browser.
+2026-06-30 00:26:52 [main] INFO  BaseClass - Configuring the browser.
+2026-06-30 00:26:52 [main] INFO  BaseClass - Setup implicit wait for the browser
+2026-06-30 00:26:52 [main] INFO  BaseClass - Maximized windows size for the browser.
+2026-06-30 00:26:52 [main] INFO  BaseClass - Going to load the web page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-30 00:26:54 [main] INFO  BaseClass - Finished configuring the browser.
+2026-06-30 00:26:54 [main] INFO  BaseClass - Web Driver initialized and browser maximized.
+2026-06-30 00:26:54 [main] TRACE BaseClass - This is a Trace message for class: DummyClass2
+2026-06-30 00:26:54 [main] DEBUG BaseClass - This is a debug message for class: DummyClass2
+2026-06-30 00:26:54 [main] WARN  BaseClass - This is a warn message for class: DummyClass2
+2026-06-30 00:26:54 [main] INFO  BaseClass - Pausing the test for 2 seconds.
+2026-06-30 00:26:57 [main] INFO  BaseClass - Waited for 2 seconds.
+2026-06-30 00:26:57 [main] INFO  ActionDriver - Action Driver constructor called.
+2026-06-30 00:26:57 [main] INFO  BaseClass - Getting the data from the congfig file.
+2026-06-30 00:26:57 [main] INFO  ActionDriver - Setup the WebDriver wait.
+2026-06-30 00:26:57 [main] INFO  BaseClass - Action Driver variable was null so created the instance.
+2026-06-30 00:26:57 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:26:57 [main] INFO  BaseClass - going to shutdown the driver.
+2026-06-30 00:26:57 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:26:57 [main] INFO  BaseClass - Web Driver was not null and quiting the driver.
+2026-06-30 00:26:57 [main] INFO  BaseClass - Nullifying Web Driver and Action Driver instances.
+2026-06-30 00:26:57 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:26:57 [main] INFO  BaseClass - Setting up the WebDriver for: LoginPageTest
+2026-06-30 00:26:57 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:26:57 [main] INFO  BaseClass - Initializing Browser.
+2026-06-30 00:26:57 [main] INFO  BaseClass - Launching Chrom Browser.
+2026-06-30 00:26:57 [main] INFO  BaseClass - Finished loading the browser.
+2026-06-30 00:26:57 [main] INFO  BaseClass - Configuring the browser.
+2026-06-30 00:26:57 [main] INFO  BaseClass - Setup implicit wait for the browser
+2026-06-30 00:26:57 [main] INFO  BaseClass - Maximized windows size for the browser.
+2026-06-30 00:26:57 [main] INFO  BaseClass - Going to load the web page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-30 00:27:00 [main] INFO  BaseClass - Finished configuring the browser.
+2026-06-30 00:27:00 [main] INFO  BaseClass - Web Driver initialized and browser maximized.
+2026-06-30 00:27:00 [main] TRACE BaseClass - This is a Trace message for class: LoginPageTest
+2026-06-30 00:27:00 [main] DEBUG BaseClass - This is a debug message for class: LoginPageTest
+2026-06-30 00:27:00 [main] WARN  BaseClass - This is a warn message for class: LoginPageTest
+2026-06-30 00:27:00 [main] INFO  BaseClass - Pausing the test for 2 seconds.
+2026-06-30 00:27:02 [main] INFO  BaseClass - Waited for 2 seconds.
+2026-06-30 00:27:02 [main] INFO  ActionDriver - Action Driver constructor called.
+2026-06-30 00:27:02 [main] INFO  BaseClass - Getting the data from the congfig file.
+2026-06-30 00:27:02 [main] INFO  ActionDriver - Setup the WebDriver wait.
+2026-06-30 00:27:02 [main] INFO  BaseClass - Action Driver variable was null so created the instance.
+2026-06-30 00:27:02 [main] INFO  BaseClass - Going to Return the Action Driver.
+2026-06-30 00:27:02 [main] INFO  BaseClass - Returning the Action Driver.
+2026-06-30 00:27:02 [main] INFO  BaseClass - Going to Return the Action Driver.
+2026-06-30 00:27:02 [main] INFO  BaseClass - Returning the Action Driver.
+2026-06-30 00:27:02 [main] INFO  ActionDriver - Running the Action Driver enterText methodBy.name: username
+2026-06-30 00:27:02 [main] INFO  ActionDriver - The text to enter is 'admin'
+2026-06-30 00:27:02 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.name: username
+2026-06-30 00:27:02 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:27:02 [main] INFO  ActionDriver - entered the text: 'admin'
+2026-06-30 00:27:02 [main] INFO  ActionDriver - Running the Action Driver enterText methodBy.cssSelector: input[type='password']
+2026-06-30 00:27:02 [main] INFO  ActionDriver - The text to enter is 'admin123'
+2026-06-30 00:27:02 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.cssSelector: input[type='password']
+2026-06-30 00:27:02 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:27:02 [main] INFO  ActionDriver - entered the text: 'admin123'
+2026-06-30 00:27:02 [main] INFO  ActionDriver - Running the Action Driver click method.By.xpath: //button[text()=' Login ']
+2026-06-30 00:27:02 [main] INFO  ActionDriver - Running the Action Driver waitforElementToBeClickable method: By.xpath: //button[text()=' Login ']
+2026-06-30 00:27:02 [main] INFO  ActionDriver - Element is now clickable.
+2026-06-30 00:27:02 [main] INFO  ActionDriver - performed the click
+2026-06-30 00:27:02 [main] INFO  ActionDriver - Running the Action Driver isDisplayed methodBy.xpath: //span[text()='Admin']
+2026-06-30 00:27:02 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.xpath: //span[text()='Admin']
+2026-06-30 00:27:03 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:27:03 [main] INFO  ActionDriver - Returning boolean if the element is displayed or not.
+2026-06-30 00:27:03 [main] INFO  ActionDriver - Running the Action Driver click method.By.className: oxd-userdropdown-name
+2026-06-30 00:27:03 [main] INFO  ActionDriver - Running the Action Driver waitforElementToBeClickable method: By.className: oxd-userdropdown-name
+2026-06-30 00:27:03 [main] INFO  ActionDriver - Element is now clickable.
+2026-06-30 00:27:03 [main] INFO  ActionDriver - performed the click
+2026-06-30 00:27:03 [main] INFO  ActionDriver - Running the Action Driver click method.By.linkText: Logout
+2026-06-30 00:27:03 [main] INFO  ActionDriver - Running the Action Driver waitforElementToBeClickable method: By.linkText: Logout
+2026-06-30 00:27:04 [main] INFO  ActionDriver - Element is now clickable.
+2026-06-30 00:27:05 [main] INFO  ActionDriver - performed the click
+2026-06-30 00:27:05 [main] INFO  BaseClass - Pausing the test for 2 seconds.
+2026-06-30 00:27:07 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:27:07 [main] INFO  BaseClass - going to shutdown the driver.
+2026-06-30 00:27:07 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:27:07 [main] INFO  BaseClass - Web Driver was not null and quiting the driver.
+2026-06-30 00:27:07 [main] INFO  BaseClass - Nullifying Web Driver and Action Driver instances.
+2026-06-30 00:27:07 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:27:07 [main] INFO  BaseClass - Setting up the WebDriver for: LoginPageTest
+2026-06-30 00:27:07 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:27:07 [main] INFO  BaseClass - Initializing Browser.
+2026-06-30 00:27:07 [main] INFO  BaseClass - Launching Chrom Browser.
+2026-06-30 00:27:08 [main] INFO  BaseClass - Finished loading the browser.
+2026-06-30 00:27:08 [main] INFO  BaseClass - Configuring the browser.
+2026-06-30 00:27:08 [main] INFO  BaseClass - Setup implicit wait for the browser
+2026-06-30 00:27:08 [main] INFO  BaseClass - Maximized windows size for the browser.
+2026-06-30 00:27:08 [main] INFO  BaseClass - Going to load the web page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-30 00:27:10 [main] INFO  BaseClass - Finished configuring the browser.
+2026-06-30 00:27:10 [main] INFO  BaseClass - Web Driver initialized and browser maximized.
+2026-06-30 00:27:10 [main] TRACE BaseClass - This is a Trace message for class: LoginPageTest
+2026-06-30 00:27:10 [main] DEBUG BaseClass - This is a debug message for class: LoginPageTest
+2026-06-30 00:27:10 [main] WARN  BaseClass - This is a warn message for class: LoginPageTest
+2026-06-30 00:27:10 [main] INFO  BaseClass - Pausing the test for 2 seconds.
+2026-06-30 00:27:12 [main] INFO  BaseClass - Waited for 2 seconds.
+2026-06-30 00:27:12 [main] INFO  ActionDriver - Action Driver constructor called.
+2026-06-30 00:27:12 [main] INFO  BaseClass - Getting the data from the congfig file.
+2026-06-30 00:27:12 [main] INFO  ActionDriver - Setup the WebDriver wait.
+2026-06-30 00:27:12 [main] INFO  BaseClass - Action Driver variable was null so created the instance.
+2026-06-30 00:27:12 [main] INFO  BaseClass - Going to Return the Action Driver.
+2026-06-30 00:27:12 [main] INFO  BaseClass - Returning the Action Driver.
+2026-06-30 00:27:12 [main] INFO  BaseClass - Going to Return the Action Driver.
+2026-06-30 00:27:12 [main] INFO  BaseClass - Returning the Action Driver.
+2026-06-30 00:27:12 [main] INFO  ActionDriver - Running the Action Driver enterText methodBy.name: username
+2026-06-30 00:27:12 [main] INFO  ActionDriver - The text to enter is 'admin'
+2026-06-30 00:27:12 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.name: username
+2026-06-30 00:27:12 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:27:12 [main] INFO  ActionDriver - entered the text: 'admin'
+2026-06-30 00:27:12 [main] INFO  ActionDriver - Running the Action Driver enterText methodBy.cssSelector: input[type='password']
+2026-06-30 00:27:12 [main] INFO  ActionDriver - The text to enter is 'admin12'
+2026-06-30 00:27:12 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.cssSelector: input[type='password']
+2026-06-30 00:27:12 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:27:12 [main] INFO  ActionDriver - entered the text: 'admin12'
+2026-06-30 00:27:12 [main] INFO  ActionDriver - Running the Action Driver click method.By.xpath: //button[text()=' Login ']
+2026-06-30 00:27:12 [main] INFO  ActionDriver - Running the Action Driver waitforElementToBeClickable method: By.xpath: //button[text()=' Login ']
+2026-06-30 00:27:12 [main] INFO  ActionDriver - Element is now clickable.
+2026-06-30 00:27:12 [main] INFO  ActionDriver - performed the click
+2026-06-30 00:27:12 [main] INFO  ActionDriver - Running the Action Driver getText method
+2026-06-30 00:27:12 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.xpath: //p[text()='Invalid credentials']
+2026-06-30 00:27:14 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:27:14 [main] INFO  ActionDriver - returning the text from the element.
+2026-06-30 00:27:14 [main] INFO  ActionDriver - Running the Action Driver compareText methodBy.xpath: //p[text()='Invalid credentials']
+2026-06-30 00:27:14 [main] INFO  ActionDriver - The text to compare is 'Invalid credentials'
+2026-06-30 00:27:14 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.xpath: //p[text()='Invalid credentials']
+2026-06-30 00:27:14 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:27:14 [main] INFO  ActionDriver - Text Matches:
+2026-06-30 00:27:14 [main] INFO  ActionDriver - Actual Text: "Invalid credentials" matches Expected Text : "Invalid credentials" 
+2026-06-30 00:27:14 [main] INFO  BaseClass - Pausing the test for 2 seconds.
+2026-06-30 00:27:16 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:27:16 [main] INFO  BaseClass - going to shutdown the driver.
+2026-06-30 00:27:16 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:27:16 [main] INFO  BaseClass - Web Driver was not null and quiting the driver.
+2026-06-30 00:27:16 [main] INFO  BaseClass - Nullifying Web Driver and Action Driver instances.
+2026-06-30 00:27:16 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:27:16 [main] INFO  BaseClass - Setting up the WebDriver for: HomePageTest
+2026-06-30 00:27:16 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:27:16 [main] INFO  BaseClass - Initializing Browser.
+2026-06-30 00:27:16 [main] INFO  BaseClass - Launching Chrom Browser.
+2026-06-30 00:27:16 [main] INFO  BaseClass - Finished loading the browser.
+2026-06-30 00:27:16 [main] INFO  BaseClass - Configuring the browser.
+2026-06-30 00:27:16 [main] INFO  BaseClass - Setup implicit wait for the browser
+2026-06-30 00:27:17 [main] INFO  BaseClass - Maximized windows size for the browser.
+2026-06-30 00:27:17 [main] INFO  BaseClass - Going to load the web page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-30 00:27:19 [main] INFO  BaseClass - Finished configuring the browser.
+2026-06-30 00:27:19 [main] INFO  BaseClass - Web Driver initialized and browser maximized.
+2026-06-30 00:27:19 [main] TRACE BaseClass - This is a Trace message for class: HomePageTest
+2026-06-30 00:27:19 [main] DEBUG BaseClass - This is a debug message for class: HomePageTest
+2026-06-30 00:27:19 [main] WARN  BaseClass - This is a warn message for class: HomePageTest
+2026-06-30 00:27:19 [main] INFO  BaseClass - Pausing the test for 2 seconds.
+2026-06-30 00:27:21 [main] INFO  BaseClass - Waited for 2 seconds.
+2026-06-30 00:27:21 [main] INFO  ActionDriver - Action Driver constructor called.
+2026-06-30 00:27:21 [main] INFO  BaseClass - Getting the data from the congfig file.
+2026-06-30 00:27:21 [main] INFO  ActionDriver - Setup the WebDriver wait.
+2026-06-30 00:27:21 [main] INFO  BaseClass - Action Driver variable was null so created the instance.
+2026-06-30 00:27:21 [main] INFO  BaseClass - Going to Return the Action Driver.
+2026-06-30 00:27:21 [main] INFO  BaseClass - Returning the Action Driver.
+2026-06-30 00:27:21 [main] INFO  BaseClass - Going to Return the Action Driver.
+2026-06-30 00:27:21 [main] INFO  BaseClass - Returning the Action Driver.
+2026-06-30 00:27:21 [main] INFO  ActionDriver - Running the Action Driver enterText methodBy.name: username
+2026-06-30 00:27:21 [main] INFO  ActionDriver - The text to enter is 'admin'
+2026-06-30 00:27:21 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.name: username
+2026-06-30 00:27:21 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:27:21 [main] INFO  ActionDriver - entered the text: 'admin'
+2026-06-30 00:27:21 [main] INFO  ActionDriver - Running the Action Driver enterText methodBy.cssSelector: input[type='password']
+2026-06-30 00:27:21 [main] INFO  ActionDriver - The text to enter is 'admin123'
+2026-06-30 00:27:21 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.cssSelector: input[type='password']
+2026-06-30 00:27:21 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:27:21 [main] INFO  ActionDriver - entered the text: 'admin123'
+2026-06-30 00:27:21 [main] INFO  ActionDriver - Running the Action Driver click method.By.xpath: //button[text()=' Login ']
+2026-06-30 00:27:21 [main] INFO  ActionDriver - Running the Action Driver waitforElementToBeClickable method: By.xpath: //button[text()=' Login ']
+2026-06-30 00:27:21 [main] INFO  ActionDriver - Element is now clickable.
+2026-06-30 00:27:22 [main] INFO  ActionDriver - performed the click
+2026-06-30 00:27:22 [main] INFO  ActionDriver - Running the Action Driver isDisplayed methodBy.xpath: //div[@class='oxd-brand-banner']//img
+2026-06-30 00:27:22 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.xpath: //div[@class='oxd-brand-banner']//img
+2026-06-30 00:27:22 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:27:22 [main] INFO  ActionDriver - Returning boolean if the element is displayed or not.
+2026-06-30 00:27:22 [main] INFO  ActionDriver - Running the Action Driver click method.By.className: oxd-userdropdown-name
+2026-06-30 00:27:22 [main] INFO  ActionDriver - Running the Action Driver waitforElementToBeClickable method: By.className: oxd-userdropdown-name
+2026-06-30 00:27:22 [main] INFO  ActionDriver - Element is now clickable.
+2026-06-30 00:27:22 [main] INFO  ActionDriver - performed the click
+2026-06-30 00:27:22 [main] INFO  ActionDriver - Running the Action Driver click method.By.linkText: Logout
+2026-06-30 00:27:22 [main] INFO  ActionDriver - Running the Action Driver waitforElementToBeClickable method: By.linkText: Logout
+2026-06-30 00:27:22 [main] INFO  ActionDriver - Element is now clickable.
+2026-06-30 00:27:23 [main] INFO  ActionDriver - performed the click
+2026-06-30 00:27:23 [main] INFO  BaseClass - Pausing the test for 2 seconds.
+2026-06-30 00:27:25 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:27:25 [main] INFO  BaseClass - going to shutdown the driver.
+2026-06-30 00:27:25 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:27:25 [main] INFO  BaseClass - Web Driver was not null and quiting the driver.
+2026-06-30 00:27:25 [main] INFO  BaseClass - Nullifying Web Driver and Action Driver instances.
+2026-06-30 00:40:58 [main] INFO  BaseClass - Going to get the data from the config file.
+2026-06-30 00:40:58 [main] INFO  BaseClass - Streaming the data from the file.
+2026-06-30 00:40:58 [main] INFO  BaseClass - Loading the data into the Properties object.
+2026-06-30 00:40:58 [main] INFO  BaseClass - config.properties file loaded.
+2026-06-30 00:40:58 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:40:58 [main] INFO  BaseClass - Setting up the WebDriver for: DummyClass
+2026-06-30 00:40:58 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:40:58 [main] INFO  BaseClass - Initializing Browser.
+2026-06-30 00:40:58 [main] INFO  BaseClass - Launching Chrom Browser.
+2026-06-30 00:40:59 [main] INFO  BaseClass - Finished loading the browser.
+2026-06-30 00:40:59 [main] INFO  BaseClass - Configuring the browser.
+2026-06-30 00:40:59 [main] INFO  BaseClass - Setup implicit wait for the browser
+2026-06-30 00:40:59 [main] INFO  BaseClass - Maximized windows size for the browser.
+2026-06-30 00:40:59 [main] INFO  BaseClass - Going to load the web page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-30 00:41:11 [main] INFO  BaseClass - Finished configuring the browser.
+2026-06-30 00:41:11 [main] INFO  BaseClass - Web Driver initialized and browser maximized.
+2026-06-30 00:41:11 [main] TRACE BaseClass - This is a Trace message for class: DummyClass
+2026-06-30 00:41:11 [main] DEBUG BaseClass - This is a debug message for class: DummyClass
+2026-06-30 00:41:11 [main] WARN  BaseClass - This is a warn message for class: DummyClass
+2026-06-30 00:41:11 [main] INFO  BaseClass - Pausing the test for 2 seconds.
+2026-06-30 00:41:13 [main] INFO  BaseClass - Waited for 2 seconds.
+2026-06-30 00:41:13 [main] INFO  ActionDriver - Action Driver constructor called.
+2026-06-30 00:41:13 [main] INFO  BaseClass - Getting the data from the congfig file.
+2026-06-30 00:41:13 [main] INFO  ActionDriver - Setup the WebDriver wait.
+2026-06-30 00:41:13 [main] INFO  BaseClass - Action Driver variable was null so created the instance.
+2026-06-30 00:41:13 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:41:13 [main] INFO  BaseClass - going to shutdown the driver.
+2026-06-30 00:41:13 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:41:13 [main] INFO  BaseClass - Web Driver was not null and quiting the driver.
+2026-06-30 00:41:13 [main] INFO  BaseClass - Nullifying Web Driver and Action Driver instances.
+2026-06-30 00:41:13 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:41:13 [main] INFO  BaseClass - Setting up the WebDriver for: DummyClass2
+2026-06-30 00:41:13 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:41:13 [main] INFO  BaseClass - Initializing Browser.
+2026-06-30 00:41:13 [main] INFO  BaseClass - Launching Chrom Browser.
+2026-06-30 00:41:14 [main] INFO  BaseClass - Finished loading the browser.
+2026-06-30 00:41:14 [main] INFO  BaseClass - Configuring the browser.
+2026-06-30 00:41:14 [main] INFO  BaseClass - Setup implicit wait for the browser
+2026-06-30 00:41:14 [main] INFO  BaseClass - Maximized windows size for the browser.
+2026-06-30 00:41:14 [main] INFO  BaseClass - Going to load the web page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-30 00:41:20 [main] INFO  BaseClass - Finished configuring the browser.
+2026-06-30 00:41:20 [main] INFO  BaseClass - Web Driver initialized and browser maximized.
+2026-06-30 00:41:20 [main] TRACE BaseClass - This is a Trace message for class: DummyClass2
+2026-06-30 00:41:20 [main] DEBUG BaseClass - This is a debug message for class: DummyClass2
+2026-06-30 00:41:20 [main] WARN  BaseClass - This is a warn message for class: DummyClass2
+2026-06-30 00:41:20 [main] INFO  BaseClass - Pausing the test for 2 seconds.
+2026-06-30 00:41:22 [main] INFO  BaseClass - Waited for 2 seconds.
+2026-06-30 00:41:22 [main] INFO  ActionDriver - Action Driver constructor called.
+2026-06-30 00:41:22 [main] INFO  BaseClass - Getting the data from the congfig file.
+2026-06-30 00:41:22 [main] INFO  ActionDriver - Setup the WebDriver wait.
+2026-06-30 00:41:22 [main] INFO  BaseClass - Action Driver variable was null so created the instance.
+2026-06-30 00:41:22 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:41:22 [main] INFO  BaseClass - going to shutdown the driver.
+2026-06-30 00:41:22 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:41:22 [main] INFO  BaseClass - Web Driver was not null and quiting the driver.
+2026-06-30 00:41:22 [main] INFO  BaseClass - Nullifying Web Driver and Action Driver instances.
+2026-06-30 00:41:22 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:41:22 [main] INFO  BaseClass - Setting up the WebDriver for: LoginPageTest
+2026-06-30 00:41:22 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:41:22 [main] INFO  BaseClass - Initializing Browser.
+2026-06-30 00:41:22 [main] INFO  BaseClass - Launching Chrom Browser.
+2026-06-30 00:41:23 [main] INFO  BaseClass - Finished loading the browser.
+2026-06-30 00:41:23 [main] INFO  BaseClass - Configuring the browser.
+2026-06-30 00:41:23 [main] INFO  BaseClass - Setup implicit wait for the browser
+2026-06-30 00:41:23 [main] INFO  BaseClass - Maximized windows size for the browser.
+2026-06-30 00:41:23 [main] INFO  BaseClass - Going to load the web page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-30 00:41:32 [main] INFO  BaseClass - Finished configuring the browser.
+2026-06-30 00:41:32 [main] INFO  BaseClass - Web Driver initialized and browser maximized.
+2026-06-30 00:41:32 [main] TRACE BaseClass - This is a Trace message for class: LoginPageTest
+2026-06-30 00:41:32 [main] DEBUG BaseClass - This is a debug message for class: LoginPageTest
+2026-06-30 00:41:32 [main] WARN  BaseClass - This is a warn message for class: LoginPageTest
+2026-06-30 00:41:32 [main] INFO  BaseClass - Pausing the test for 2 seconds.
+2026-06-30 00:41:34 [main] INFO  BaseClass - Waited for 2 seconds.
+2026-06-30 00:41:34 [main] INFO  ActionDriver - Action Driver constructor called.
+2026-06-30 00:41:34 [main] INFO  BaseClass - Getting the data from the congfig file.
+2026-06-30 00:41:34 [main] INFO  ActionDriver - Setup the WebDriver wait.
+2026-06-30 00:41:34 [main] INFO  BaseClass - Action Driver variable was null so created the instance.
+2026-06-30 00:41:34 [main] INFO  BaseClass - Going to Return the Action Driver.
+2026-06-30 00:41:34 [main] INFO  BaseClass - Returning the Action Driver.
+2026-06-30 00:41:34 [main] INFO  BaseClass - Going to Return the Action Driver.
+2026-06-30 00:41:34 [main] INFO  BaseClass - Returning the Action Driver.
+2026-06-30 00:41:34 [main] INFO  ActionDriver - Running the Action Driver enterText methodBy.name: username
+2026-06-30 00:41:34 [main] INFO  ActionDriver - The text to enter is 'admin'
+2026-06-30 00:41:34 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.name: username
+2026-06-30 00:41:39 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:41:39 [main] INFO  ActionDriver - entered the text: 'admin'
+2026-06-30 00:41:39 [main] INFO  ActionDriver - Running the Action Driver enterText methodBy.cssSelector: input[type='password']
+2026-06-30 00:41:39 [main] INFO  ActionDriver - The text to enter is 'admin123'
+2026-06-30 00:41:39 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.cssSelector: input[type='password']
+2026-06-30 00:41:39 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:41:39 [main] INFO  ActionDriver - entered the text: 'admin123'
+2026-06-30 00:41:39 [main] INFO  ActionDriver - Running the Action Driver click method.By.xpath: //button[text()=' Login ']
+2026-06-30 00:41:39 [main] INFO  ActionDriver - Running the Action Driver waitforElementToBeClickable method: By.xpath: //button[text()=' Login ']
+2026-06-30 00:41:39 [main] INFO  ActionDriver - Element is now clickable.
+2026-06-30 00:41:39 [main] INFO  ActionDriver - performed the click
+2026-06-30 00:41:39 [main] INFO  ActionDriver - Running the Action Driver isDisplayed methodBy.xpath: //span[text()='Admin']
+2026-06-30 00:41:39 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.xpath: //span[text()='Admin']
+2026-06-30 00:41:58 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:41:58 [main] INFO  ActionDriver - Returning boolean if the element is displayed or not.
+2026-06-30 00:41:58 [main] INFO  ActionDriver - Running the Action Driver click method.By.className: oxd-userdropdown-name
+2026-06-30 00:41:58 [main] INFO  ActionDriver - Running the Action Driver waitforElementToBeClickable method: By.className: oxd-userdropdown-name
+2026-06-30 00:41:58 [main] INFO  ActionDriver - Element is now clickable.
+2026-06-30 00:41:58 [main] INFO  ActionDriver - performed the click
+2026-06-30 00:41:58 [main] INFO  ActionDriver - Running the Action Driver click method.By.linkText: Logout
+2026-06-30 00:41:58 [main] INFO  ActionDriver - Running the Action Driver waitforElementToBeClickable method: By.linkText: Logout
+2026-06-30 00:41:58 [main] INFO  ActionDriver - Element is now clickable.
+2026-06-30 00:42:16 [main] INFO  ActionDriver - performed the click
+2026-06-30 00:42:16 [main] INFO  BaseClass - Pausing the test for 2 seconds.
+2026-06-30 00:42:18 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:42:18 [main] INFO  BaseClass - going to shutdown the driver.
+2026-06-30 00:42:18 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:42:18 [main] INFO  BaseClass - Web Driver was not null and quiting the driver.
+2026-06-30 00:42:19 [main] INFO  BaseClass - Nullifying Web Driver and Action Driver instances.
+2026-06-30 00:42:19 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:42:19 [main] INFO  BaseClass - Setting up the WebDriver for: LoginPageTest
+2026-06-30 00:42:19 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:42:19 [main] INFO  BaseClass - Initializing Browser.
+2026-06-30 00:42:19 [main] INFO  BaseClass - Launching Chrom Browser.
+2026-06-30 00:42:19 [main] INFO  BaseClass - Finished loading the browser.
+2026-06-30 00:42:19 [main] INFO  BaseClass - Configuring the browser.
+2026-06-30 00:42:19 [main] INFO  BaseClass - Setup implicit wait for the browser
+2026-06-30 00:42:19 [main] INFO  BaseClass - Maximized windows size for the browser.
+2026-06-30 00:42:19 [main] INFO  BaseClass - Going to load the web page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-30 00:42:26 [main] INFO  BaseClass - Finished configuring the browser.
+2026-06-30 00:42:26 [main] INFO  BaseClass - Web Driver initialized and browser maximized.
+2026-06-30 00:42:26 [main] TRACE BaseClass - This is a Trace message for class: LoginPageTest
+2026-06-30 00:42:26 [main] DEBUG BaseClass - This is a debug message for class: LoginPageTest
+2026-06-30 00:42:26 [main] WARN  BaseClass - This is a warn message for class: LoginPageTest
+2026-06-30 00:42:26 [main] INFO  BaseClass - Pausing the test for 2 seconds.
+2026-06-30 00:42:28 [main] INFO  BaseClass - Waited for 2 seconds.
+2026-06-30 00:42:28 [main] INFO  ActionDriver - Action Driver constructor called.
+2026-06-30 00:42:28 [main] INFO  BaseClass - Getting the data from the congfig file.
+2026-06-30 00:42:28 [main] INFO  ActionDriver - Setup the WebDriver wait.
+2026-06-30 00:42:28 [main] INFO  BaseClass - Action Driver variable was null so created the instance.
+2026-06-30 00:42:28 [main] INFO  BaseClass - Going to Return the Action Driver.
+2026-06-30 00:42:28 [main] INFO  BaseClass - Returning the Action Driver.
+2026-06-30 00:42:28 [main] INFO  BaseClass - Going to Return the Action Driver.
+2026-06-30 00:42:28 [main] INFO  BaseClass - Returning the Action Driver.
+2026-06-30 00:42:28 [main] INFO  ActionDriver - Running the Action Driver enterText methodBy.name: username
+2026-06-30 00:42:28 [main] INFO  ActionDriver - The text to enter is 'admin'
+2026-06-30 00:42:28 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.name: username
+2026-06-30 00:42:29 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:42:29 [main] INFO  ActionDriver - entered the text: 'admin'
+2026-06-30 00:42:29 [main] INFO  ActionDriver - Running the Action Driver enterText methodBy.cssSelector: input[type='password']
+2026-06-30 00:42:29 [main] INFO  ActionDriver - The text to enter is 'admin12'
+2026-06-30 00:42:29 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.cssSelector: input[type='password']
+2026-06-30 00:42:29 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:42:29 [main] INFO  ActionDriver - entered the text: 'admin12'
+2026-06-30 00:42:29 [main] INFO  ActionDriver - Running the Action Driver click method.By.xpath: //button[text()=' Login ']
+2026-06-30 00:42:29 [main] INFO  ActionDriver - Running the Action Driver waitforElementToBeClickable method: By.xpath: //button[text()=' Login ']
+2026-06-30 00:42:29 [main] INFO  ActionDriver - Element is now clickable.
+2026-06-30 00:42:29 [main] INFO  ActionDriver - performed the click
+2026-06-30 00:42:29 [main] INFO  ActionDriver - Running the Action Driver compareText methodBy.xpath: //p[text()='Invalid credentials']
+2026-06-30 00:42:29 [main] INFO  ActionDriver - The text to compare is 'Invalid credentials1'
+2026-06-30 00:42:29 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.xpath: //p[text()='Invalid credentials']
+2026-06-30 00:42:44 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:42:44 [main] INFO  ActionDriver - Text Does Not Match:
+2026-06-30 00:42:44 [main] INFO  ActionDriver - Actual Text: "Invalid credentials" does not match Expected Text : "Invalid credentials1" 
+2026-06-30 00:42:44 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:42:44 [main] INFO  BaseClass - going to shutdown the driver.
+2026-06-30 00:42:44 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:42:44 [main] INFO  BaseClass - Web Driver was not null and quiting the driver.
+2026-06-30 00:42:44 [main] INFO  BaseClass - Nullifying Web Driver and Action Driver instances.
+2026-06-30 00:42:44 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:42:44 [main] INFO  BaseClass - Setting up the WebDriver for: HomePageTest
+2026-06-30 00:42:44 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:42:44 [main] INFO  BaseClass - Initializing Browser.
+2026-06-30 00:42:44 [main] INFO  BaseClass - Launching Chrom Browser.
+2026-06-30 00:42:45 [main] INFO  BaseClass - Finished loading the browser.
+2026-06-30 00:42:45 [main] INFO  BaseClass - Configuring the browser.
+2026-06-30 00:42:45 [main] INFO  BaseClass - Setup implicit wait for the browser
+2026-06-30 00:42:45 [main] INFO  BaseClass - Maximized windows size for the browser.
+2026-06-30 00:42:45 [main] INFO  BaseClass - Going to load the web page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-30 00:42:52 [main] INFO  BaseClass - Finished configuring the browser.
+2026-06-30 00:42:52 [main] INFO  BaseClass - Web Driver initialized and browser maximized.
+2026-06-30 00:42:52 [main] TRACE BaseClass - This is a Trace message for class: HomePageTest
+2026-06-30 00:42:52 [main] DEBUG BaseClass - This is a debug message for class: HomePageTest
+2026-06-30 00:42:52 [main] WARN  BaseClass - This is a warn message for class: HomePageTest
+2026-06-30 00:42:52 [main] INFO  BaseClass - Pausing the test for 2 seconds.
+2026-06-30 00:42:54 [main] INFO  BaseClass - Waited for 2 seconds.
+2026-06-30 00:42:54 [main] INFO  ActionDriver - Action Driver constructor called.
+2026-06-30 00:42:54 [main] INFO  BaseClass - Getting the data from the congfig file.
+2026-06-30 00:42:54 [main] INFO  ActionDriver - Setup the WebDriver wait.
+2026-06-30 00:42:54 [main] INFO  BaseClass - Action Driver variable was null so created the instance.
+2026-06-30 00:42:54 [main] INFO  BaseClass - Going to Return the Action Driver.
+2026-06-30 00:42:54 [main] INFO  BaseClass - Returning the Action Driver.
+2026-06-30 00:42:54 [main] INFO  BaseClass - Going to Return the Action Driver.
+2026-06-30 00:42:54 [main] INFO  BaseClass - Returning the Action Driver.
+2026-06-30 00:42:54 [main] INFO  ActionDriver - Running the Action Driver enterText methodBy.name: username
+2026-06-30 00:42:54 [main] INFO  ActionDriver - The text to enter is 'admin'
+2026-06-30 00:42:54 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.name: username
+2026-06-30 00:42:54 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:42:54 [main] INFO  ActionDriver - entered the text: 'admin'
+2026-06-30 00:42:54 [main] INFO  ActionDriver - Running the Action Driver enterText methodBy.cssSelector: input[type='password']
+2026-06-30 00:42:54 [main] INFO  ActionDriver - The text to enter is 'admin123'
+2026-06-30 00:42:54 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.cssSelector: input[type='password']
+2026-06-30 00:42:54 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:42:54 [main] INFO  ActionDriver - entered the text: 'admin123'
+2026-06-30 00:42:54 [main] INFO  ActionDriver - Running the Action Driver click method.By.xpath: //button[text()=' Login ']
+2026-06-30 00:42:54 [main] INFO  ActionDriver - Running the Action Driver waitforElementToBeClickable method: By.xpath: //button[text()=' Login ']
+2026-06-30 00:42:54 [main] INFO  ActionDriver - Element is now clickable.
+2026-06-30 00:42:54 [main] INFO  ActionDriver - performed the click
+2026-06-30 00:42:54 [main] INFO  ActionDriver - Running the Action Driver isDisplayed methodBy.xpath: //div[@class='oxd-brand-banner']//img
+2026-06-30 00:42:54 [main] INFO  ActionDriver - Running the Action Driver waitForElementToBeVisible methodBy.xpath: //div[@class='oxd-brand-banner']//img
+2026-06-30 00:43:05 [main] INFO  ActionDriver - Element is now visible.
+2026-06-30 00:43:05 [main] INFO  ActionDriver - Returning boolean if the element is displayed or not.
+2026-06-30 00:43:05 [main] INFO  ActionDriver - Running the Action Driver click method.By.className: oxd-userdropdown-name
+2026-06-30 00:43:05 [main] INFO  ActionDriver - Running the Action Driver waitforElementToBeClickable method: By.className: oxd-userdropdown-name
+2026-06-30 00:43:05 [main] INFO  ActionDriver - Element is now clickable.
+2026-06-30 00:43:05 [main] INFO  ActionDriver - performed the click
+2026-06-30 00:43:05 [main] INFO  ActionDriver - Running the Action Driver click method.By.linkText: Logout
+2026-06-30 00:43:05 [main] INFO  ActionDriver - Running the Action Driver waitforElementToBeClickable method: By.linkText: Logout
+2026-06-30 00:43:05 [main] INFO  ActionDriver - Element is now clickable.
+2026-06-30 00:43:11 [main] INFO  ActionDriver - performed the click
+2026-06-30 00:43:11 [main] INFO  BaseClass - Pausing the test for 2 seconds.
+2026-06-30 00:43:13 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:43:13 [main] INFO  BaseClass - going to shutdown the driver.
+2026-06-30 00:43:13 [main] INFO  BaseClass - ==============================================================================
+2026-06-30 00:43:13 [main] INFO  BaseClass - Web Driver was not null and quiting the driver.
+2026-06-30 00:43:13 [main] INFO  BaseClass - Nullifying Web Driver and Action Driver instances.

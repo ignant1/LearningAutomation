@@ -2,7 +2,7 @@ package test;
 
 import org.testng.annotations.Test;
 
-import base.BaseClass;
+import demo.project.base.BaseClass;
 
 //this class is used to validate the Framework is functioning properly
 public class DummyClass2 extends BaseClass{

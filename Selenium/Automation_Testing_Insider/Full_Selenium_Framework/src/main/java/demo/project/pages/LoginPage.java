@@ -1,8 +1,9 @@
-package pages;
+package demo.project.pages;
 
 import org.openqa.selenium.By;
-import actiondriver.ActionDriver;
-import base.BaseClass;
+
+import demo.project.actiondriver.ActionDriver;
+import demo.project.base.BaseClass;
 
 public class LoginPage {
 
@@ -40,6 +41,6 @@ public class LoginPage {
 	
 	//method to verify error message is correct
 	public boolean  verifyErrorMessage(String expectedMessage) {
-		return actionDr.compareText(errorMessage, getErrorMessageText());
+		return actionDr.compareText(errorMessage, expectedMessage);
 	}
 }

@@ -1,91 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-29T22:40:54 MST" name="OrangeHRMSuite" finished-at="2026-06-29T22:41:34 MST" duration-ms="39384">
+  <suite started-at="2026-06-30T00:40:58 MST" name="OrangeHRMSuite" finished-at="2026-06-30T00:43:13 MST" duration-ms="135231">
     <groups>
     </groups>
-    <test started-at="2026-06-29T22:40:54 MST" name="OrangeHRMTest" finished-at="2026-06-29T22:41:34 MST" duration-ms="39384">
+    <test started-at="2026-06-30T00:40:58 MST" name="OrangeHRMTest" finished-at="2026-06-30T00:43:13 MST" duration-ms="135231">
       <class name="test.DummyClass">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:test.DummyClass@3eb738bb]" started-at="2026-06-29T22:40:54 MST" name="loadConfig" finished-at="2026-06-29T22:40:54 MST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:test.DummyClass@332796d3]" started-at="2026-06-30T00:40:58 MST" name="loadConfig" finished-at="2026-06-30T00:40:58 MST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.DummyClass@3eb738bb]" started-at="2026-06-29T22:40:54 MST" name="setup" finished-at="2026-06-29T22:41:00 MST" duration-ms="5483" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.DummyClass@332796d3]" started-at="2026-06-30T00:40:58 MST" name="setup" finished-at="2026-06-30T00:41:13 MST" duration-ms="14969" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="dummyTest()[pri:0, instance:test.DummyClass@3eb738bb]" started-at="2026-06-29T22:41:00 MST" name="dummyTest" finished-at="2026-06-29T22:41:00 MST" duration-ms="19" status="PASS">
+        <test-method signature="dummyTest()[pri:0, instance:test.DummyClass@332796d3]" started-at="2026-06-30T00:41:13 MST" name="dummyTest" finished-at="2026-06-30T00:41:13 MST" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dummyTest -->
-        <test-method is-config="true" signature="shutdown()[pri:0, instance:test.DummyClass@3eb738bb]" started-at="2026-06-29T22:41:00 MST" name="shutdown" finished-at="2026-06-29T22:41:00 MST" duration-ms="117" status="PASS">
+        <test-method is-config="true" signature="shutdown()[pri:0, instance:test.DummyClass@332796d3]" started-at="2026-06-30T00:41:13 MST" name="shutdown" finished-at="2026-06-30T00:41:13 MST" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutdown -->
       </class> <!-- test.DummyClass -->
       <class name="test.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.HomePageTest@5dda768f]" started-at="2026-06-29T22:41:24 MST" name="setup" finished-at="2026-06-29T22:41:29 MST" duration-ms="5068" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.HomePageTest@545b995e]" started-at="2026-06-30T00:42:44 MST" name="setup" finished-at="2026-06-30T00:42:54 MST" duration-ms="9418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:test.HomePageTest@5dda768f]" started-at="2026-06-29T22:41:29 MST" name="setupPages" finished-at="2026-06-29T22:41:29 MST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:test.HomePageTest@545b995e]" started-at="2026-06-30T00:42:54 MST" name="setupPages" finished-at="2026-06-30T00:42:54 MST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="verifyOrnageHRMLogo()[pri:0, instance:test.HomePageTest@5dda768f]" started-at="2026-06-29T22:41:29 MST" name="verifyOrnageHRMLogo" finished-at="2026-06-29T22:41:33 MST" duration-ms="4571" status="PASS">
+        <test-method signature="verifyOrnageHRMLogo()[pri:0, instance:test.HomePageTest@545b995e]" started-at="2026-06-30T00:42:54 MST" name="verifyOrnageHRMLogo" finished-at="2026-06-30T00:43:13 MST" duration-ms="19451" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyOrnageHRMLogo -->
-        <test-method is-config="true" signature="shutdown()[pri:0, instance:test.HomePageTest@5dda768f]" started-at="2026-06-29T22:41:33 MST" name="shutdown" finished-at="2026-06-29T22:41:34 MST" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="shutdown()[pri:0, instance:test.HomePageTest@545b995e]" started-at="2026-06-30T00:43:13 MST" name="shutdown" finished-at="2026-06-30T00:43:13 MST" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutdown -->
       </class> <!-- test.HomePageTest -->
       <class name="test.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginPageTest@3b0090a4]" started-at="2026-06-29T22:41:05 MST" name="setup" finished-at="2026-06-29T22:41:10 MST" duration-ms="5074" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginPageTest@673be18f]" started-at="2026-06-30T00:41:22 MST" name="setup" finished-at="2026-06-30T00:41:34 MST" duration-ms="12265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:test.LoginPageTest@3b0090a4]" started-at="2026-06-29T22:41:10 MST" name="setupPages" finished-at="2026-06-29T22:41:10 MST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:test.LoginPageTest@673be18f]" started-at="2026-06-30T00:41:34 MST" name="setupPages" finished-at="2026-06-30T00:41:34 MST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="TC01_validLoginTest()[pri:0, instance:test.LoginPageTest@3b0090a4]" started-at="2026-06-29T22:41:10 MST" name="TC01_validLoginTest" finished-at="2026-06-29T22:41:15 MST" duration-ms="4823" status="PASS">
+        <test-method signature="TC01_validLoginTest()[pri:0, instance:test.LoginPageTest@673be18f]" started-at="2026-06-30T00:41:34 MST" name="TC01_validLoginTest" finished-at="2026-06-30T00:42:18 MST" duration-ms="43929" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01_validLoginTest -->
-        <test-method is-config="true" signature="shutdown()[pri:0, instance:test.LoginPageTest@3b0090a4]" started-at="2026-06-29T22:41:15 MST" name="shutdown" finished-at="2026-06-29T22:41:15 MST" duration-ms="140" status="PASS">
+        <test-method is-config="true" signature="shutdown()[pri:0, instance:test.LoginPageTest@673be18f]" started-at="2026-06-30T00:42:18 MST" name="shutdown" finished-at="2026-06-30T00:42:19 MST" duration-ms="154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutdown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginPageTest@3b0090a4]" started-at="2026-06-29T22:41:15 MST" name="setup" finished-at="2026-06-29T22:41:20 MST" duration-ms="5019" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginPageTest@673be18f]" started-at="2026-06-30T00:42:19 MST" name="setup" finished-at="2026-06-30T00:42:28 MST" duration-ms="9567" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:test.LoginPageTest@3b0090a4]" started-at="2026-06-29T22:41:20 MST" name="setupPages" finished-at="2026-06-29T22:41:20 MST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:test.LoginPageTest@673be18f]" started-at="2026-06-30T00:42:28 MST" name="setupPages" finished-at="2026-06-30T00:42:28 MST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="TC02_invalidLoginTest()[pri:0, instance:test.LoginPageTest@3b0090a4]" started-at="2026-06-29T22:41:20 MST" name="TC02_invalidLoginTest" finished-at="2026-06-29T22:41:24 MST" duration-ms="3662" status="PASS">
+        <test-method signature="TC02_invalidLoginTest()[pri:0, instance:test.LoginPageTest@673be18f]" started-at="2026-06-30T00:42:28 MST" name="TC02_invalidLoginTest" finished-at="2026-06-30T00:42:44 MST" duration-ms="15977" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test Failed: invalid error message expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test Failed: invalid error message expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at test.LoginPageTest.TC02_invalidLoginTest(LoginPageTest.java:42)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC02_invalidLoginTest -->
-        <test-method is-config="true" signature="shutdown()[pri:0, instance:test.LoginPageTest@3b0090a4]" started-at="2026-06-29T22:41:24 MST" name="shutdown" finished-at="2026-06-29T22:41:24 MST" duration-ms="121" status="PASS">
+        <test-method is-config="true" signature="shutdown()[pri:0, instance:test.LoginPageTest@673be18f]" started-at="2026-06-30T00:42:44 MST" name="shutdown" finished-at="2026-06-30T00:42:44 MST" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutdown -->
       </class> <!-- test.LoginPageTest -->
       <class name="test.DummyClass2">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.DummyClass2@179ece50]" started-at="2026-06-29T22:41:00 MST" name="setup" finished-at="2026-06-29T22:41:05 MST" duration-ms="4990" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.DummyClass2@1e097d59]" started-at="2026-06-30T00:41:13 MST" name="setup" finished-at="2026-06-30T00:41:22 MST" duration-ms="8814" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="dummyTest2()[pri:0, instance:test.DummyClass2@179ece50]" started-at="2026-06-29T22:41:05 MST" name="dummyTest2" finished-at="2026-06-29T22:41:05 MST" duration-ms="12" status="PASS">
+        <test-method signature="dummyTest2()[pri:0, instance:test.DummyClass2@1e097d59]" started-at="2026-06-30T00:41:22 MST" name="dummyTest2" finished-at="2026-06-30T00:41:22 MST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dummyTest2 -->
-        <test-method is-config="true" signature="shutdown()[pri:0, instance:test.DummyClass2@179ece50]" started-at="2026-06-29T22:41:05 MST" name="shutdown" finished-at="2026-06-29T22:41:05 MST" duration-ms="112" status="PASS">
+        <test-method is-config="true" signature="shutdown()[pri:0, instance:test.DummyClass2@1e097d59]" started-at="2026-06-30T00:41:22 MST" name="shutdown" finished-at="2026-06-30T00:41:22 MST" duration-ms="122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutdown -->

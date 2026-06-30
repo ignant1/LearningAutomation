@@ -4,9 +4,9 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import base.BaseClass;
-import pages.HomePage;
-import pages.LoginPage;
+import demo.project.base.BaseClass;
+import demo.project.pages.HomePage;
+import demo.project.pages.LoginPage;
 
 public class HomePageTest extends BaseClass{
 

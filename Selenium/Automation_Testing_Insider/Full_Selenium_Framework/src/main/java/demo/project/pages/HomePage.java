@@ -1,8 +1,9 @@
-package pages;
+package demo.project.pages;
 
 import org.openqa.selenium.By;
-import actiondriver.ActionDriver;
-import base.BaseClass;
+
+import demo.project.actiondriver.ActionDriver;
+import demo.project.base.BaseClass;
 
 public class HomePage {
 	
