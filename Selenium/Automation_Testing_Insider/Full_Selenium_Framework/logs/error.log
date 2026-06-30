@@ -28,3 +28,13 @@
 2026-06-30 00:42:26 [main] FATAL BaseClass - This is a fatal message for class: LoginPageTest
 2026-06-30 00:42:52 [main] ERROR BaseClass - This is a Error message for class: HomePageTest
 2026-06-30 00:42:52 [main] FATAL BaseClass - This is a fatal message for class: HomePageTest
+2026-06-30 11:31:21 [main] ERROR BaseClass - This is a Error message for class: DummyClass
+2026-06-30 11:31:21 [main] FATAL BaseClass - This is a fatal message for class: DummyClass
+2026-06-30 11:31:26 [main] ERROR BaseClass - This is a Error message for class: DummyClass2
+2026-06-30 11:31:26 [main] FATAL BaseClass - This is a fatal message for class: DummyClass2
+2026-06-30 11:31:31 [main] ERROR BaseClass - This is a Error message for class: LoginPageTest
+2026-06-30 11:31:31 [main] FATAL BaseClass - This is a fatal message for class: LoginPageTest
+2026-06-30 11:31:41 [main] ERROR BaseClass - This is a Error message for class: LoginPageTest
+2026-06-30 11:31:41 [main] FATAL BaseClass - This is a fatal message for class: LoginPageTest
+2026-06-30 11:31:48 [main] ERROR BaseClass - This is a Error message for class: HomePageTest
+2026-06-30 11:31:48 [main] FATAL BaseClass - This is a fatal message for class: HomePageTest
