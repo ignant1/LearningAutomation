@@ -1,9 +1,8 @@
 package pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-
 import actiondriver.ActionDriver;
+import base.BaseClass;
 
 public class LoginPage {
 
@@ -11,8 +10,9 @@ public class LoginPage {
 	private ActionDriver actionDr;
 	
 	//Initialize the ActionDriver object by passing the WebDriver
-	public LoginPage(WebDriver wd) {
-		actionDr = new ActionDriver(wd);
+	public LoginPage() {//WebDriver wd) {
+		//actionDr = new ActionDriver(wd);
+		this.actionDr = BaseClass.getActionDriver();
 	}
 	
 	//Define locators

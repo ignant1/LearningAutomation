@@ -16,12 +16,16 @@ public class LoginPageTest extends BaseClass{
 	
 	@BeforeMethod
 	public void setupPages() {
-		loginPage = new LoginPage(getDriver());
-		homePage = new HomePage(getDriver());
+		System.out.println("going to setup the login page and home page instances for the LoginPageTest Class.");
+		loginPage = new LoginPage();//getDriver());   - no longer need to pass the web driver
+		homePage = new HomePage();//getDriver());   - no longer need to pass the web driver
 	}
 	
 	@Test
 	public void TC01_validLoginTest() {
+		System.out.println("==============================================================================");
+		System.out.println("Running test case TC01_validLoginTest.");
+		System.out.println("==============================================================================");
 		loginPage.performLogin("admin", "admin123");
 		Assert.assertTrue(homePage.isAdminTabVisible(),"Admin tab should be visible after successfull login");
 		homePage.logout();
@@ -30,6 +34,9 @@ public class LoginPageTest extends BaseClass{
 
 	@Test
 	public void TC02_invalidLoginTest() {
+		System.out.println("==============================================================================");
+		System.out.println("Running test case TC02_validLoginTest.");
+		System.out.println("==============================================================================");
 		loginPage.performLogin("admin", "admin12");
 		String expectedErrorMessage = "Invalid credentials";
 		Assert.assertTrue(loginPage.verifyErrorMessage(expectedErrorMessage),"Test Failed: invalid error message");

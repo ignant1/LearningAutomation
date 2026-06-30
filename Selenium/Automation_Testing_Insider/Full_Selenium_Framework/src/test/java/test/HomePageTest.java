@@ -16,12 +16,16 @@ public class HomePageTest extends BaseClass{
 	
 	@BeforeMethod
 	public void setupPages() {
-		loginPage = new LoginPage(getDriver());
-		homePage = new HomePage(getDriver());
+		System.out.println("going to setup the login page and home page instances for the HomePageTest Class.");
+		loginPage = new LoginPage();//getDriver());   - no longer need to pass the web driver
+		homePage = new HomePage();//getDriver());   - no longer need to pass the web driver
 	}
 	
 	@Test
 	public void verifyOrnageHRMLogo() {
+		System.out.println("==============================================================================");
+		System.out.println("Running test case verifyOrnageHRMLogo.");
+		System.out.println("==============================================================================");
 		loginPage.performLogin("admin", "admin123");
 		Assert.assertTrue(homePage.verifyOrangeHRMLogo(),"Logo is not visible");
 		homePage.logout();

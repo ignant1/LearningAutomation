@@ -6,6 +6,7 @@
 			<class name = "test.DummyClass"></class>
 			<class name = "test.DummyClass2"></class>
 			<class name = "test.LoginPageTest"></class>
+			<class name = "test.HomePageTest"></class>
 		</classes>
 	</test>
 </suite>
