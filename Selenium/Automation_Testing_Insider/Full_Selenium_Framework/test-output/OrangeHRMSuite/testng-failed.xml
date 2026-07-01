@@ -8,10 +8,19 @@
           <include name="shutdown"/>
           <include name="setupPages"/>
           <include name="setup"/>
+          <include name="TC01_validLoginTest"/>
           <include name="TC02_invalidLoginTest"/>
           <include name="loadConfig"/>
         </methods>
       </class> <!-- test.LoginPageTest -->
+      <class name="test.DummyClass">
+        <methods>
+          <include name="shutdown"/>
+          <include name="setup"/>
+          <include name="dummyTest"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- test.DummyClass -->
     </classes>
   </test> <!-- OrangeHRMTest(failed) -->
 </suite> <!-- Failed suite [OrangeHRMSuite] -->

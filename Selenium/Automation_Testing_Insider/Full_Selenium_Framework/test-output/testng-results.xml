@@ -1,91 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="2" failed="2" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-30T13:10:33 MST" name="OrangeHRMSuite" finished-at="2026-06-30T13:10:48 MST" duration-ms="14880">
+  <suite started-at="2026-07-01T00:28:52 MST" name="OrangeHRMSuite" finished-at="2026-07-01T00:29:21 MST" duration-ms="29180">
     <groups>
     </groups>
-    <test started-at="2026-06-30T13:10:33 MST" name="OrangeHRMTest" finished-at="2026-06-30T13:10:48 MST" duration-ms="14880">
+    <test started-at="2026-07-01T00:28:52 MST" name="OrangeHRMTest" finished-at="2026-07-01T00:29:21 MST" duration-ms="29180">
       <class name="test.DummyClass">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:test.DummyClass@332796d3]" started-at="2026-06-30T13:10:33 MST" name="loadConfig" finished-at="2026-06-30T13:10:33 MST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:test.DummyClass@58326051]" started-at="2026-07-01T00:28:52 MST" name="loadConfig" finished-at="2026-07-01T00:28:52 MST" duration-ms="144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.DummyClass@332796d3]" started-at="2026-06-30T13:10:33 MST" name="setup" finished-at="2026-06-30T13:10:39 MST" duration-ms="5773" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.DummyClass@58326051]" started-at="2026-07-01T00:28:52 MST" name="setup" finished-at="2026-07-01T00:28:58 MST" duration-ms="6296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="dummyTest()[pri:0, instance:test.DummyClass@332796d3]" started-at="2026-06-30T13:10:39 MST" name="dummyTest" finished-at="2026-06-30T13:10:39 MST" duration-ms="8" status="PASS">
+        <test-method signature="dummyTest()[pri:0, instance:test.DummyClass@58326051]" started-at="2026-07-01T00:28:58 MST" name="dummyTest" finished-at="2026-07-01T00:28:58 MST" duration-ms="13" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as part of testing.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as part of testing.
+at test.DummyClass.dummyTest(DummyClass.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dummyTest -->
-        <test-method is-config="true" signature="shutdown()[pri:0, instance:test.DummyClass@332796d3]" started-at="2026-06-30T13:10:39 MST" name="shutdown" finished-at="2026-06-30T13:10:39 MST" duration-ms="176" status="PASS">
+        <test-method is-config="true" signature="shutdown()[pri:0, instance:test.DummyClass@58326051]" started-at="2026-07-01T00:28:58 MST" name="shutdown" finished-at="2026-07-01T00:28:58 MST" duration-ms="413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutdown -->
       </class> <!-- test.DummyClass -->
       <class name="test.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.HomePageTest@545b995e]" started-at="2026-06-30T13:10:33 MST" name="setup" finished-at="2026-06-30T13:10:39 MST" duration-ms="5591" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.HomePageTest@50d13246]" started-at="2026-07-01T00:28:52 MST" name="setup" finished-at="2026-07-01T00:28:58 MST" duration-ms="6066" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:test.HomePageTest@545b995e]" started-at="2026-06-30T13:10:39 MST" name="setupPages" finished-at="2026-06-30T13:10:39 MST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:test.HomePageTest@50d13246]" started-at="2026-07-01T00:28:58 MST" name="setupPages" finished-at="2026-07-01T00:28:58 MST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="verifyOrnageHRMLogo()[pri:0, instance:test.HomePageTest@545b995e]" started-at="2026-06-30T13:10:39 MST" name="verifyOrnageHRMLogo" finished-at="2026-06-30T13:10:44 MST" duration-ms="5107" status="PASS">
+        <test-method signature="verifyOrnageHRMLogo()[pri:0, instance:test.HomePageTest@50d13246]" started-at="2026-07-01T00:28:58 MST" name="verifyOrnageHRMLogo" finished-at="2026-07-01T00:29:12 MST" duration-ms="14337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyOrnageHRMLogo -->
-        <test-method is-config="true" signature="shutdown()[pri:0, instance:test.HomePageTest@545b995e]" started-at="2026-06-30T13:10:44 MST" name="shutdown" finished-at="2026-06-30T13:10:44 MST" duration-ms="142" status="PASS">
+        <test-method is-config="true" signature="shutdown()[pri:0, instance:test.HomePageTest@50d13246]" started-at="2026-07-01T00:29:12 MST" name="shutdown" finished-at="2026-07-01T00:29:12 MST" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutdown -->
       </class> <!-- test.HomePageTest -->
       <class name="test.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginPageTest@673be18f]" started-at="2026-06-30T13:10:33 MST" name="setup" finished-at="2026-06-30T13:10:39 MST" duration-ms="5772" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginPageTest@7ae42ce3]" started-at="2026-07-01T00:28:52 MST" name="setup" finished-at="2026-07-01T00:29:05 MST" duration-ms="12739" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginPageTest@673be18f]" started-at="2026-06-30T13:10:33 MST" name="setup" finished-at="2026-06-30T13:10:44 MST" duration-ms="11015" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginPageTest@7ae42ce3]" started-at="2026-07-01T00:28:52 MST" name="setup" finished-at="2026-07-01T00:28:58 MST" duration-ms="6108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:test.LoginPageTest@673be18f]" started-at="2026-06-30T13:10:39 MST" name="setupPages" finished-at="2026-06-30T13:10:39 MST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:test.LoginPageTest@7ae42ce3]" started-at="2026-07-01T00:28:58 MST" name="setupPages" finished-at="2026-07-01T00:28:58 MST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="TC01_validLoginTest()[pri:0, instance:test.LoginPageTest@673be18f]" started-at="2026-06-30T13:10:39 MST" name="TC01_validLoginTest" finished-at="2026-06-30T13:10:44 MST" duration-ms="5096" status="PASS">
+        <test-method signature="TC01_validLoginTest()[pri:0, instance:test.LoginPageTest@7ae42ce3]" started-at="2026-07-01T00:28:58 MST" name="TC01_validLoginTest" finished-at="2026-07-01T00:29:15 MST" duration-ms="17276" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".oxd\-userdropdown\-name"}
+  (Session info: chrome=150.0.7871.47)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dc3753d150879bb92e26396e54f8b22c, findElement {value=oxd-userdropdown-name, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.47, chrome: {chromedriverVersion: 150.0.7871.46 (5b586c06e0d2..., userDataDir: C:\Users\th3ig\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60571}, goog:processID: 29432, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60571/devtoo..., se:cdpVersion: 150.0.7871.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dc3753d150879bb92e26396e54f8b22c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".oxd\-userdropdown\-name"}
+  (Session info: chrome=150.0.7871.47)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dc3753d150879bb92e26396e54f8b22c, findElement {value=oxd-userdropdown-name, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.47, chrome: {chromedriverVersion: 150.0.7871.46 (5b586c06e0d2..., userDataDir: C:\Users\th3ig\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60571}, goog:processID: 29432, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60571/devtoo..., se:cdpVersion: 150.0.7871.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dc3753d150879bb92e26396e54f8b22c
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:396)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:390)
+at demo.project.actiondriver.ActionDriver.getElementDescription(ActionDriver.java:214)
+at demo.project.actiondriver.ActionDriver.click(ActionDriver.java:32)
+at demo.project.pages.HomePage.logout(HomePage.java:37)
+at test.LoginPageTest.TC01_validLoginTest(LoginPageTest.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01_validLoginTest -->
-        <test-method is-config="true" signature="shutdown()[pri:0, instance:test.LoginPageTest@673be18f]" started-at="2026-06-30T13:10:44 MST" name="shutdown" finished-at="2026-06-30T13:10:45 MST" duration-ms="295" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shutdown -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:test.LoginPageTest@673be18f]" started-at="2026-06-30T13:10:44 MST" name="setupPages" finished-at="2026-06-30T13:10:44 MST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:test.LoginPageTest@7ae42ce3]" started-at="2026-07-01T00:29:05 MST" name="setupPages" finished-at="2026-07-01T00:29:05 MST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="TC02_invalidLoginTest()[pri:0, instance:test.LoginPageTest@673be18f]" started-at="2026-06-30T13:10:44 MST" name="TC02_invalidLoginTest" finished-at="2026-06-30T13:10:48 MST" duration-ms="3710" status="PASS">
+        <test-method signature="TC02_invalidLoginTest()[pri:0, instance:test.LoginPageTest@7ae42ce3]" started-at="2026-07-01T00:29:05 MST" name="TC02_invalidLoginTest" finished-at="2026-07-01T00:29:21 MST" duration-ms="16217" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test Failed: invalid error message expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test Failed: invalid error message expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at test.LoginPageTest.TC02_invalidLoginTest(LoginPageTest.java:52)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC02_invalidLoginTest -->
-        <test-method is-config="true" signature="shutdown()[pri:0, instance:test.LoginPageTest@673be18f]" started-at="2026-06-30T13:10:48 MST" name="shutdown" finished-at="2026-06-30T13:10:48 MST" duration-ms="124" status="PASS">
+        <test-method is-config="true" signature="shutdown()[pri:0, instance:test.LoginPageTest@7ae42ce3]" started-at="2026-07-01T00:29:15 MST" name="shutdown" finished-at="2026-07-01T00:29:15 MST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+        <test-method is-config="true" signature="shutdown()[pri:0, instance:test.LoginPageTest@7ae42ce3]" started-at="2026-07-01T00:29:21 MST" name="shutdown" finished-at="2026-07-01T00:29:21 MST" duration-ms="192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutdown -->
       </class> <!-- test.LoginPageTest -->
       <class name="test.DummyClass2">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.DummyClass2@1e097d59]" started-at="2026-06-30T13:10:33 MST" name="setup" finished-at="2026-06-30T13:10:39 MST" duration-ms="5787" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.DummyClass2@5a755cc1]" started-at="2026-07-01T00:28:52 MST" name="setup" finished-at="2026-07-01T00:28:58 MST" duration-ms="6187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="dummyTest2()[pri:0, instance:test.DummyClass2@1e097d59]" started-at="2026-06-30T13:10:39 MST" name="dummyTest2" finished-at="2026-06-30T13:10:39 MST" duration-ms="8" status="PASS">
+        <test-method signature="dummyTest2()[pri:0, instance:test.DummyClass2@5a755cc1]" started-at="2026-07-01T00:28:58 MST" name="dummyTest2" finished-at="2026-07-01T00:28:58 MST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dummyTest2 -->
-        <test-method is-config="true" signature="shutdown()[pri:0, instance:test.DummyClass2@1e097d59]" started-at="2026-06-30T13:10:39 MST" name="shutdown" finished-at="2026-06-30T13:10:39 MST" duration-ms="148" status="PASS">
+        <test-method is-config="true" signature="shutdown()[pri:0, instance:test.DummyClass2@5a755cc1]" started-at="2026-07-01T00:28:58 MST" name="shutdown" finished-at="2026-07-01T00:28:58 MST" duration-ms="509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutdown -->

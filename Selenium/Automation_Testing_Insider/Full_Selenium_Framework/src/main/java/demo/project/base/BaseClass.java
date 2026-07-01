@@ -17,6 +17,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import demo.project.actiondriver.ActionDriver;
+import demo.project.utilities.ExtentReportManager;
 import demo.project.utilities.LoggerManager;
 
 public class BaseClass {
@@ -50,18 +51,21 @@ public class BaseClass {
 				logger.info("Launching Chrom Browser.");
 				//webDr = new ChromeDriver();
 				webDr.set(new ChromeDriver());
+				ExtentReportManager.registerWebDriver(getWebDriver());
 				break;
 			}
 			case "firefox" : {
 				logger.info("Launching FireFox Browser.");
 				//webDr = new FirefoxDriver();
 				webDr.set(new FirefoxDriver());
+				ExtentReportManager.registerWebDriver(getWebDriver());
 				break;
 			}
 			case "edge" : {
 				logger.info("Launching Edge Browser.");
 				//webDr = new EdgeDriver();
 				webDr.set(new EdgeDriver());
+				ExtentReportManager.registerWebDriver(getWebDriver());
 				break;
 			}
 			default : {
@@ -164,6 +168,9 @@ public class BaseClass {
 		logger.info("Loading the data into the Properties object.");
 		properties.load(fis);
 		logger.info("config.properties file loaded.");
+		
+		//start the Extent Report
+		ExtentReportManager.getExtentReport();
 	}
 
 	//making method synchronized so that each thread can use it one at a time.
@@ -224,5 +231,6 @@ public class BaseClass {
 		//actionDr = null;
 		webDr.remove();
 		actionDr.remove();
+		ExtentReportManager.endTest();
 	}
 }
