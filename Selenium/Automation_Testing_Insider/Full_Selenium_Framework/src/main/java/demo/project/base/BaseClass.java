@@ -169,8 +169,9 @@ public class BaseClass {
 		properties.load(fis);
 		logger.info("config.properties file loaded.");
 		
+		//this has been moved to TestListener.onStart method
 		//start the Extent Report
-		ExtentReportManager.getExtentReport();
+		//ExtentReportManager.getExtentReport();
 	}
 
 	//making method synchronized so that each thread can use it one at a time.
@@ -231,6 +232,8 @@ public class BaseClass {
 		//actionDr = null;
 		webDr.remove();
 		actionDr.remove();
-		ExtentReportManager.endTest();
+		
+		//this has been moved to  TestListener.onFinish method
+		//ExtentReportManager.endTest();
 	}
 }

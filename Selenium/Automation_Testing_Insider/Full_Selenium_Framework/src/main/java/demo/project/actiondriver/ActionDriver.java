@@ -100,7 +100,7 @@ public class ActionDriver{
 						+ expectedText + "\" ");
 				return true;
 			} else {
-				ExtentReportManager.logFailure(BaseClass.getWebDriver(), "Compare Text", "Text Does Not Match: " + actualText + " != " + expectedText);
+				ExtentReportManager.logFailure(BaseClass.getWebDriver(), "Text Comparison Failed", "Text Does Not Match: " + actualText + " != " + expectedText);
 				logger.info("Text Does Not Match in the element: " + description);
 				logger.info("Actual Text: \"" + actualText + "\" does not match Expected Text : \""
 						+ expectedText + "\" ");

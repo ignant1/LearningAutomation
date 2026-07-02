@@ -1,4 +1,4 @@
-package test;
+package demo.project.test;
 
 import org.testng.annotations.Test;
 
@@ -10,7 +10,8 @@ public class DummyClass2 extends BaseClass{
 	
 	@Test
 	public void dummyTest2() {
-		ExtentReportManager.startTest("Dummy Test 2");
+		////this has been moved to TestListener.onTestStart method
+		//ExtentReportManager.startTest("Dummy Test 2");
 		logger.info("==============================================================================");
 		logger.info("Running dummyTest from " + this.getClass().getName() + " class.");
 		logger.info("==============================================================================");

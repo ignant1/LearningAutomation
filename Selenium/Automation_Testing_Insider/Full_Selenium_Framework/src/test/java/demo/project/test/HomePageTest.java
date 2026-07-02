@@ -1,4 +1,4 @@
-package test;
+package demo.project.test;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -24,7 +24,8 @@ public class HomePageTest extends BaseClass{
 	
 	@Test
 	public void verifyOrnageHRMLogo() {
-		ExtentReportManager.startTest("Home Page-Logo Test");
+		////this has been moved to TestListener.onTestStart method
+		//ExtentReportManager.startTest("Home Page-Logo Test");
 		logger.info("==============================================================================");
 		logger.info("Running test case verifyOrnageHRMLogo.");
 		logger.info("==============================================================================");

@@ -1,4 +1,4 @@
-package test;
+package demo.project.test;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -24,7 +24,8 @@ public class LoginPageTest extends BaseClass{
 	
 	@Test
 	public void TC01_validLoginTest() {
-		ExtentReportManager.startTest("Login Page-Text Case 01-Valid Login Test");
+		////this has been moved to TestListener.onTestStart method
+		//ExtentReportManager.startTest("Login Page-Text Case 01-Valid Login Test");
 		logger.info("==============================================================================");
 		logger.info("Running test case TC01_validLoginTest.");
 		logger.info("==============================================================================");
@@ -41,7 +42,8 @@ public class LoginPageTest extends BaseClass{
 
 	@Test
 	public void TC02_invalidLoginTest() {
-		ExtentReportManager.startTest("Login Page-Text Case 02-Invalid Login Test");
+		////this has been moved to TestListener.onTestStart method
+		//ExtentReportManager.startTest("Login Page-Text Case 02-Invalid Login Test");
 		logger.info("==============================================================================");
 		logger.info("Running test case TC02_invalidLoginTest.");
 		logger.info("==============================================================================");

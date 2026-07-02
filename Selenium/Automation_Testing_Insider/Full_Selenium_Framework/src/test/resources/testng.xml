@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name = "OrangeHRMSuite" parallel="methods" thread-count="5">
+	<listeners>
+		<listener class-name="demo.project.listeners.TestListener"></listener>
+	</listeners>
 	<test name = "OrangeHRMTest">
 		<classes>
-			<class name = "test.DummyClass"></class>
-			<class name = "test.DummyClass2"></class>
-			<class name = "test.LoginPageTest"></class>
-			<class name = "test.HomePageTest"></class>
+			<class name = "demo.project.test.DummyClass"></class>
+			<class name = "demo.project.test.DummyClass2"></class>
+			<class name = "demo.project.test.LoginPageTest"></class>
+			<class name = "demo.project.test.HomePageTest"></class>
 		</classes>
 	</test>
 </suite>

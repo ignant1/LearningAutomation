@@ -1,4 +1,4 @@
-package test;
+package demo.project.test;
 
 import org.testng.SkipException;
 import org.testng.annotations.Test;
@@ -11,7 +11,8 @@ public class DummyClass extends BaseClass{
 	
 	@Test
 	public void dummyTest() {
-		ExtentReportManager.startTest("Dummy Test 1");
+		////this has been moved to TestListener.onTestStart method
+		//ExtentReportManager.startTest("Dummy Test 1");
 		logger.info("==============================================================================");
 		logger.info("Running dummyTest from " + this.getClass().getName() + " class.");
 		logger.info("==============================================================================");
