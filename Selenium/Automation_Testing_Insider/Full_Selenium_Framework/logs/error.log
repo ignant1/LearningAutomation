@@ -118,3 +118,115 @@
 2026-06-30 12:53:30 [TestNG-test-OrangeHRMTest-3] FATAL BaseClass - This is a fatal message for class: LoginPageTest
 2026-06-30 12:53:30 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - This is a Error message for class: DummyClass2
 2026-06-30 12:53:30 [TestNG-test-OrangeHRMTest-2] FATAL BaseClass - This is a fatal message for class: DummyClass2
+2026-07-02 13:08:55 [TestNG-test-OrangeHRMTest-5] ERROR ActionDriver - Failed to apply the green border to the Element name: username element.
+2026-07-02 13:08:55 [TestNG-test-OrangeHRMTest-5] ERROR ActionDriver - Error Message: javascript error: Cannot set properties of undefined (setting 'border')
+  (Session info: chrome=150.0.7871.47)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5166ca964deb62b09e4f3a1f1f9feadd, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.368D68EAE499025398784707DA67A345.d.1999D5D7ED5632E03504BDF207A785A7.e.2}], script=arguments[0].apply.border='3px solid green'}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.47, chrome: {chromedriverVersion: 150.0.7871.46 (5b586c06e0d2..., userDataDir: C:\Users\th3ig\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55191}, goog:processID: 13972, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55191/devtoo..., se:cdpVersion: 150.0.7871.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5166ca964deb62b09e4f3a1f1f9feadd
+2026-07-02 13:08:55 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Failed to apply the green border to the Element name: username element.
+2026-07-02 13:08:55 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Error Message: javascript error: Cannot set properties of undefined (setting 'border')
+  (Session info: chrome=150.0.7871.47)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [55d66e5a57477f454283395547855fb7, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.FCC95BEE691CC33A85E5E19123C8C07B.d.03B72ABB3B1A62271A554E1AAC533AE9.e.2}], script=arguments[0].apply.border='3px solid green'}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.47, chrome: {chromedriverVersion: 150.0.7871.46 (5b586c06e0d2..., userDataDir: C:\Users\th3ig\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49352}, goog:processID: 34600, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49352/devtoo..., se:cdpVersion: 150.0.7871.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 55d66e5a57477f454283395547855fb7
+2026-07-02 13:08:55 [TestNG-test-OrangeHRMTest-5] ERROR ActionDriver - Failed to apply the green border to the Element name: password element.
+2026-07-02 13:08:55 [TestNG-test-OrangeHRMTest-5] ERROR ActionDriver - Error Message: javascript error: Cannot set properties of undefined (setting 'border')
+  (Session info: chrome=150.0.7871.47)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5166ca964deb62b09e4f3a1f1f9feadd, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.368D68EAE499025398784707DA67A345.d.1999D5D7ED5632E03504BDF207A785A7.e.4}], script=arguments[0].apply.border='3px solid green'}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.47, chrome: {chromedriverVersion: 150.0.7871.46 (5b586c06e0d2..., userDataDir: C:\Users\th3ig\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55191}, goog:processID: 13972, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55191/devtoo..., se:cdpVersion: 150.0.7871.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5166ca964deb62b09e4f3a1f1f9feadd
+2026-07-02 13:08:55 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Failed to apply the green border to the Element name: password element.
+2026-07-02 13:08:55 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Error Message: javascript error: Cannot set properties of undefined (setting 'border')
+  (Session info: chrome=150.0.7871.47)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [55d66e5a57477f454283395547855fb7, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.FCC95BEE691CC33A85E5E19123C8C07B.d.03B72ABB3B1A62271A554E1AAC533AE9.e.4}], script=arguments[0].apply.border='3px solid green'}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.47, chrome: {chromedriverVersion: 150.0.7871.46 (5b586c06e0d2..., userDataDir: C:\Users\th3ig\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49352}, goog:processID: 34600, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49352/devtoo..., se:cdpVersion: 150.0.7871.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 55d66e5a57477f454283395547855fb7
+2026-07-02 13:09:01 [TestNG-test-OrangeHRMTest-4] ERROR ActionDriver - Failed to apply the green border to the Element name: username element.
+2026-07-02 13:09:01 [TestNG-test-OrangeHRMTest-4] ERROR ActionDriver - Error Message: javascript error: Cannot set properties of undefined (setting 'border')
+  (Session info: chrome=150.0.7871.47)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40f1a15e23ab94fb37be99a68ba23020, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.610688912A26872F21B41EAB59A31ACC.d.DDD5A549BF640941704C1304542EF83D.e.2}], script=arguments[0].apply.border='3px solid green'}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.47, chrome: {chromedriverVersion: 150.0.7871.46 (5b586c06e0d2..., userDataDir: C:\Users\th3ig\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62010}, goog:processID: 37752, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62010/devtoo..., se:cdpVersion: 150.0.7871.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40f1a15e23ab94fb37be99a68ba23020
+2026-07-02 13:09:01 [TestNG-test-OrangeHRMTest-4] ERROR ActionDriver - Failed to apply the green border to the Element name: password element.
+2026-07-02 13:09:01 [TestNG-test-OrangeHRMTest-4] ERROR ActionDriver - Error Message: javascript error: Cannot set properties of undefined (setting 'border')
+  (Session info: chrome=150.0.7871.47)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40f1a15e23ab94fb37be99a68ba23020, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.610688912A26872F21B41EAB59A31ACC.d.DDD5A549BF640941704C1304542EF83D.e.4}], script=arguments[0].apply.border='3px solid green'}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.47, chrome: {chromedriverVersion: 150.0.7871.46 (5b586c06e0d2..., userDataDir: C:\Users\th3ig\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62010}, goog:processID: 37752, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62010/devtoo..., se:cdpVersion: 150.0.7871.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40f1a15e23ab94fb37be99a68ba23020
+2026-07-02 13:09:05 [TestNG-test-OrangeHRMTest-4] ERROR ActionDriver - Failed to apply the green border to the Element text: Login element.
+2026-07-02 13:09:05 [TestNG-test-OrangeHRMTest-4] ERROR ActionDriver - Error Message: javascript error: Cannot set properties of undefined (setting 'border')
+  (Session info: chrome=150.0.7871.47)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40f1a15e23ab94fb37be99a68ba23020, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.610688912A26872F21B41EAB59A31ACC.d.65CBC1CFFE928948F67EC45085F553C5.e.56}], script=arguments[0].apply.border='3px solid green'}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.47, chrome: {chromedriverVersion: 150.0.7871.46 (5b586c06e0d2..., userDataDir: C:\Users\th3ig\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62010}, goog:processID: 37752, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62010/devtoo..., se:cdpVersion: 150.0.7871.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40f1a15e23ab94fb37be99a68ba23020
+2026-07-02 13:09:05 [TestNG-test-OrangeHRMTest-4] ERROR ActionDriver - Failed to apply the red border to the Element text: Invalid credentials element.
+2026-07-02 13:09:05 [TestNG-test-OrangeHRMTest-4] ERROR ActionDriver - Error Message: javascript error: Cannot set properties of undefined (setting 'border')
+  (Session info: chrome=150.0.7871.47)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40f1a15e23ab94fb37be99a68ba23020, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.610688912A26872F21B41EAB59A31ACC.d.65CBC1CFFE928948F67EC45085F553C5.e.57}], script=arguments[0].apply.border='3px solid red'}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.47, chrome: {chromedriverVersion: 150.0.7871.46 (5b586c06e0d2..., userDataDir: C:\Users\th3ig\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62010}, goog:processID: 37752, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62010/devtoo..., se:cdpVersion: 150.0.7871.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40f1a15e23ab94fb37be99a68ba23020
+2026-07-02 13:09:08 [TestNG-test-OrangeHRMTest-5] ERROR ActionDriver - Unable to click element: Element text: Login
+2026-07-02 13:09:09 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Unable to click element: Element text: Login
+2026-07-02 13:26:02 [TestNG-test-OrangeHRMTest-5] ERROR ActionDriver - Unable to click element: Element text: Login
+2026-07-02 13:26:07 [TestNG-test-OrangeHRMTest-3] ERROR ActionDriver - Unable to click element: Element text: Login
+2026-07-03 09:52:04 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Unable to click element: Element text: Login
+2026-07-03 09:52:37 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Unable to click element: Element text: Login
+2026-07-03 09:57:06 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Unable to click element: Element text: Login
+2026-07-03 09:57:39 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Unable to click element: Element text: Login
+2026-07-03 10:02:02 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Element is not clickable: Element text: Login
+2026-07-03 10:02:02 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Error message: Expected condition failed: waiting for element found by By.xpath: //button[text()=' Login '] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()=' Login ']"}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.47, chrome: {chromedriverVersion: 150.0.7871.46 (5b586c06e0d2..., userDataDir: C:\Users\th3ig\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59829}, goog:processID: 4188, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59829/devtoo..., se:cdpVersion: 150.0.7871.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9157f75b09332731e69679918ed083b7
+2026-07-03 10:02:24 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Element is not clickable: Element text: Logout
+2026-07-03 10:02:24 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Error message: Expected condition failed: waiting for element found by By.linkText: Logout to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Logout"}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.47, chrome: {chromedriverVersion: 150.0.7871.46 (5b586c06e0d2..., userDataDir: C:\Users\th3ig\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59829}, goog:processID: 4188, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59829/devtoo..., se:cdpVersion: 150.0.7871.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9157f75b09332731e69679918ed083b7
+2026-07-03 10:03:00 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Element is not clickable: Element text: Login
+2026-07-03 10:03:00 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Error message: Expected condition failed: waiting for element found by By.xpath: //button[text()=' Login '] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()=' Login ']"}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.47, chrome: {chromedriverVersion: 150.0.7871.46 (5b586c06e0d2..., userDataDir: C:\Users\th3ig\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60374}, goog:processID: 34984, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60374/devtoo..., se:cdpVersion: 150.0.7871.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab06581daf031045dd6360cde8d56793
+2026-07-03 10:03:22 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Element is not clickable: Element text: Logout
+2026-07-03 10:03:22 [TestNG-test-OrangeHRMTest-1] ERROR ActionDriver - Error message: Expected condition failed: waiting for element found by By.linkText: Logout to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Logout"}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.47, chrome: {chromedriverVersion: 150.0.7871.46 (5b586c06e0d2..., userDataDir: C:\Users\th3ig\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60374}, goog:processID: 34984, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60374/devtoo..., se:cdpVersion: 150.0.7871.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab06581daf031045dd6360cde8d56793

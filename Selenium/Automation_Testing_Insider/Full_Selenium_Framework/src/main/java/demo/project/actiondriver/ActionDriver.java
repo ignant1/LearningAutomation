@@ -33,11 +33,13 @@ public class ActionDriver{
 		logger.info("Running the Action Driver click method for " + by.toString());
 		try {
 			waitForElementToBeClickable(by, description);
+			applyboreder(by, "green", description);
 			webDr.findElement(by).click();
 			ExtentReportManager.logStep("Clicked Element: " + description);
 			logger.info("Clicked Element: " + description);
 		} catch (Exception e) {
 			logger.error("Unable to click element: " + description);
+			applyboreder(by, "red", description);
 			ExtentReportManager.logFailure(BaseClass.getWebDriver(), "Unable to click element: ", description + ": Unable to click.");
 			logger.error("Error message: " + e.getMessage());
 		}
@@ -58,10 +60,12 @@ public class ActionDriver{
 			//driver.findElement(by).sendKeys(text);
 			element.clear();
 			element.sendKeys(text);
+			applyboreder(by, "green", description);
 			ExtentReportManager.logStep("Entering text element: " + description);
 			logger.info("Entering text element: " + description);
 			logger.info("entered the text: \'" + text + "\'");
 		} catch (Exception e) {
+			applyboreder(by, "red", description);
 			ExtentReportManager.logFailure(BaseClass.getWebDriver(), "Unable to enter text into element: ", description + ": Unable to enter text.");
 			logger.error("Unable to enter text into textbox: " + description);
 			logger.error("Error Message: " + e.getMessage());
@@ -75,9 +79,11 @@ public class ActionDriver{
 		try {
 			waitForElementToBeVisible(by, description);
 			logger.info("returning the text from the element: " + description);
+			applyboreder(by, "green", description);
 			ExtentReportManager.logStep("Text was returned from element: " + description);
 			return webDr.findElement(by).getText();
 		} catch (Exception e) {
+			applyboreder(by, "red", description);
 			ExtentReportManager.logFailure(BaseClass.getWebDriver(), "Unable to get text from element: ", description + ": Unable to get text.");
 			logger.error("Unable to get text from element: " + description);
 			logger.error("Error Message: " + e.getMessage());
@@ -94,12 +100,14 @@ public class ActionDriver{
 			waitForElementToBeVisible(by, description);
 			String actualText = webDr.findElement(by).getText();
 			if(expectedText.equals(actualText)) {
+				applyboreder(by, "green", description);
 				ExtentReportManager.logStepWithScreenShot(BaseClass.getWebDriver(), "Compare Text", "Text Matches: " + actualText + " = " + expectedText);
 				logger.info("Text Matches in the element: " + description);
 				logger.info("Actual Text: \"" + actualText + "\" matches Expected Text : \""
 						+ expectedText + "\" ");
 				return true;
 			} else {
+				applyboreder(by, "red", description);
 				ExtentReportManager.logFailure(BaseClass.getWebDriver(), "Text Comparison Failed", "Text Does Not Match: " + actualText + " != " + expectedText);
 				logger.info("Text Does Not Match in the element: " + description);
 				logger.info("Actual Text: \"" + actualText + "\" does not match Expected Text : \""
@@ -107,6 +115,8 @@ public class ActionDriver{
 				return false;
 			}
 		} catch (Exception e) {
+			applyboreder(by, "red", description);
+			ExtentReportManager.logFailure(BaseClass.getWebDriver(), "Failed to get the Text", "Unable to get text from element: " + description);
 			logger.error("Unable to get text from textbox: " + description);
 			logger.error("Error Message: " + e.getMessage());
 			return false;
@@ -121,6 +131,7 @@ public class ActionDriver{
 			waitForElementToBeVisible(by, description);
 			
 			//going to simplify the code to just return boolean isDisplayed, not going to include a printout
+			applyboreder(by, "green", description);
 			ExtentReportManager.logStepWithScreenShot(BaseClass.getWebDriver(), "Element is displayed: ", description  + ": Element is visible.");
 			logger.info("Returning boolean if the element, " + description + " is displayed or not.");
 			return webDr.findElement(by).isDisplayed();
@@ -130,6 +141,7 @@ public class ActionDriver{
 			 * System.out.println("Element is not visible."); return isDisplayed; }
 			 */
 		} catch (Exception e) {
+			applyboreder(by, "red", description);
 			ExtentReportManager.logFailure(BaseClass.getWebDriver(), "Element is not displayed: ", description + ": Element is invisible.");
 			logger.error("Element is not visible: " + description);
 			logger.error("Error message: " + e.getMessage());
@@ -145,9 +157,11 @@ public class ActionDriver{
 			waitForElementToBeVisible(by, description);
 			JavascriptExecutor jse = (JavascriptExecutor) webDr;
 			jse.executeScript("arguments[0].scrollIntoView(true);", webDr.findElement(by));
+			applyboreder(by, "green", description);
 			ExtentReportManager.logStepWithScreenShot(BaseClass.getWebDriver(), "Scrolled to Element: ", description + ": Scrolled");
 			logger.info("Scrolled to the element: " + description);
 		} catch (Exception e) {
+			applyboreder(by, "red", description);
 			ExtentReportManager.logFailure(BaseClass.getWebDriver(), "Unable to scroll to the element: ", description + ": Did not scroll.");
 			logger.error("Unable to scroll to the element: " + description);
 			logger.error("Error Message: " + e.getMessage());
@@ -268,6 +282,25 @@ public class ActionDriver{
 			return text;
 		} else {
 			return (text.substring(0, maxLength) + "...");
+		}
+	}
+	
+	//Utility method to border an element
+	public void applyboreder(By by, String color, String description) {
+		logger.info("Running the applyBorder method.");
+
+		//locate the element
+		WebElement element = webDr.findElement(by);
+		
+		try {			
+			//apply the border using javascript
+			String jsScriptColor = "arguments[0].style.border='3px solid " + color + "'";
+			JavascriptExecutor js = (JavascriptExecutor)webDr;
+			js.executeScript(jsScriptColor, element);
+			logger.info("Applied the " + color + " border to the " + description + " element.");
+		} catch (Exception e) {
+			logger.error("Failed to apply the " + color + " border to the " + description + " element.");
+			logger.error("Error Message: " + e.getMessage());
 		}
 	}
 }

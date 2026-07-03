@@ -2,28 +2,24 @@
 <testng-results ignored="0" total="5" passed="3" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-01T23:58:46 MST" name="OrangeHRMSuite" finished-at="2026-07-01T23:59:07 MST" duration-ms="20941">
+  <suite started-at="2026-07-03T10:24:04 MST" name="OrangeHRMSuite" finished-at="2026-07-03T10:24:20 MST" duration-ms="16344">
     <groups>
     </groups>
-    <test started-at="2026-07-01T23:58:46 MST" name="OrangeHRMTest" finished-at="2026-07-01T23:59:07 MST" duration-ms="20941">
+    <test started-at="2026-07-03T10:24:04 MST" name="OrangeHRMTest" finished-at="2026-07-03T10:24:20 MST" duration-ms="16344">
       <class name="demo.project.test.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:demo.project.test.LoginPageTest@4f5991f6]" started-at="2026-07-01T23:58:46 MST" name="setup" finished-at="2026-07-01T23:59:00 MST" duration-ms="13770" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:demo.project.test.LoginPageTest@4f5991f6]" started-at="2026-07-03T10:24:04 MST" name="setup" finished-at="2026-07-03T10:24:10 MST" duration-ms="5898" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:demo.project.test.LoginPageTest@4f5991f6]" started-at="2026-07-01T23:58:46 MST" name="setup" finished-at="2026-07-01T23:58:54 MST" duration-ms="8114" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:demo.project.test.LoginPageTest@4f5991f6]" started-at="2026-07-03T10:24:04 MST" name="setup" finished-at="2026-07-03T10:24:15 MST" duration-ms="10885" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:demo.project.test.LoginPageTest@4f5991f6]" started-at="2026-07-01T23:58:54 MST" name="setupPages" finished-at="2026-07-01T23:58:54 MST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:demo.project.test.LoginPageTest@4f5991f6]" started-at="2026-07-03T10:24:10 MST" name="setupPages" finished-at="2026-07-03T10:24:10 MST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="TC01_validLoginTest()[pri:0, instance:demo.project.test.LoginPageTest@4f5991f6]" started-at="2026-07-01T23:58:54 MST" name="TC01_validLoginTest" finished-at="2026-07-01T23:59:06 MST" duration-ms="12078" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC01_validLoginTest -->
-        <test-method signature="TC02_invalidLoginTest()[pri:0, instance:demo.project.test.LoginPageTest@4f5991f6]" started-at="2026-07-01T23:59:00 MST" name="TC02_invalidLoginTest" finished-at="2026-07-01T23:59:06 MST" duration-ms="6273" status="FAIL">
+        <test-method signature="TC02_invalidLoginTest()[pri:0, instance:demo.project.test.LoginPageTest@4f5991f6]" started-at="2026-07-03T10:24:10 MST" name="TC02_invalidLoginTest" finished-at="2026-07-03T10:24:12 MST" duration-ms="2269" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Test Failed: invalid error message expected [true] but found [false]]]>
@@ -56,29 +52,33 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC02_invalidLoginTest -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:demo.project.test.LoginPageTest@4f5991f6]" started-at="2026-07-01T23:59:00 MST" name="setupPages" finished-at="2026-07-01T23:59:00 MST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupPages -->
-        <test-method is-config="true" signature="shutdown()[pri:0, instance:demo.project.test.LoginPageTest@4f5991f6]" started-at="2026-07-01T23:59:06 MST" name="shutdown" finished-at="2026-07-01T23:59:07 MST" duration-ms="149" status="PASS">
+        <test-method is-config="true" signature="shutdown()[pri:0, instance:demo.project.test.LoginPageTest@4f5991f6]" started-at="2026-07-03T10:24:12 MST" name="shutdown" finished-at="2026-07-03T10:24:15 MST" duration-ms="2781" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutdown -->
-        <test-method is-config="true" signature="shutdown()[pri:0, instance:demo.project.test.LoginPageTest@4f5991f6]" started-at="2026-07-01T23:59:07 MST" name="shutdown" finished-at="2026-07-01T23:59:07 MST" duration-ms="167" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:demo.project.test.LoginPageTest@4f5991f6]" started-at="2026-07-03T10:24:15 MST" name="setupPages" finished-at="2026-07-03T10:24:15 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="TC01_validLoginTest()[pri:0, instance:demo.project.test.LoginPageTest@4f5991f6]" started-at="2026-07-03T10:24:15 MST" name="TC01_validLoginTest" finished-at="2026-07-03T10:24:20 MST" duration-ms="5072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_validLoginTest -->
+        <test-method is-config="true" signature="shutdown()[pri:0, instance:demo.project.test.LoginPageTest@4f5991f6]" started-at="2026-07-03T10:24:20 MST" name="shutdown" finished-at="2026-07-03T10:24:20 MST" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutdown -->
       </class> <!-- demo.project.test.LoginPageTest -->
       <class name="demo.project.test.DummyClass">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:demo.project.test.DummyClass@32c4e8b2]" started-at="2026-07-01T23:58:46 MST" name="loadConfig" finished-at="2026-07-01T23:58:46 MST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:demo.project.test.DummyClass@32c4e8b2]" started-at="2026-07-03T10:24:04 MST" name="loadConfig" finished-at="2026-07-03T10:24:04 MST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:demo.project.test.DummyClass@32c4e8b2]" started-at="2026-07-01T23:58:46 MST" name="setup" finished-at="2026-07-01T23:58:55 MST" duration-ms="8427" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:demo.project.test.DummyClass@32c4e8b2]" started-at="2026-07-03T10:24:04 MST" name="setup" finished-at="2026-07-03T10:24:10 MST" duration-ms="5885" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="dummyTest()[pri:0, instance:demo.project.test.DummyClass@32c4e8b2]" started-at="2026-07-01T23:58:55 MST" name="dummyTest" finished-at="2026-07-01T23:58:55 MST" duration-ms="20" status="SKIP">
+        <test-method signature="dummyTest()[pri:0, instance:demo.project.test.DummyClass@32c4e8b2]" started-at="2026-07-03T10:24:10 MST" name="dummyTest" finished-at="2026-07-03T10:24:10 MST" duration-ms="20" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping the test as part of testing.]]>
@@ -108,39 +108,39 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dummyTest -->
-        <test-method is-config="true" signature="shutdown()[pri:0, instance:demo.project.test.DummyClass@32c4e8b2]" started-at="2026-07-01T23:58:55 MST" name="shutdown" finished-at="2026-07-01T23:58:55 MST" duration-ms="224" status="PASS">
+        <test-method is-config="true" signature="shutdown()[pri:0, instance:demo.project.test.DummyClass@32c4e8b2]" started-at="2026-07-03T10:24:10 MST" name="shutdown" finished-at="2026-07-03T10:24:10 MST" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutdown -->
       </class> <!-- demo.project.test.DummyClass -->
       <class name="demo.project.test.DummyClass2">
-        <test-method is-config="true" signature="setup()[pri:0, instance:demo.project.test.DummyClass2@7ae42ce3]" started-at="2026-07-01T23:58:46 MST" name="setup" finished-at="2026-07-01T23:58:54 MST" duration-ms="7916" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:demo.project.test.DummyClass2@7ae42ce3]" started-at="2026-07-03T10:24:04 MST" name="setup" finished-at="2026-07-03T10:24:10 MST" duration-ms="5961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="dummyTest2()[pri:0, instance:demo.project.test.DummyClass2@7ae42ce3]" started-at="2026-07-01T23:58:54 MST" name="dummyTest2" finished-at="2026-07-01T23:58:54 MST" duration-ms="25" status="PASS">
+        <test-method signature="dummyTest2()[pri:0, instance:demo.project.test.DummyClass2@7ae42ce3]" started-at="2026-07-03T10:24:10 MST" name="dummyTest2" finished-at="2026-07-03T10:24:10 MST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dummyTest2 -->
-        <test-method is-config="true" signature="shutdown()[pri:0, instance:demo.project.test.DummyClass2@7ae42ce3]" started-at="2026-07-01T23:58:54 MST" name="shutdown" finished-at="2026-07-01T23:58:54 MST" duration-ms="158" status="PASS">
+        <test-method is-config="true" signature="shutdown()[pri:0, instance:demo.project.test.DummyClass2@7ae42ce3]" started-at="2026-07-03T10:24:10 MST" name="shutdown" finished-at="2026-07-03T10:24:12 MST" duration-ms="1681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutdown -->
       </class> <!-- demo.project.test.DummyClass2 -->
       <class name="demo.project.test.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:demo.project.test.HomePageTest@2bd08376]" started-at="2026-07-01T23:58:46 MST" name="setup" finished-at="2026-07-01T23:58:55 MST" duration-ms="8523" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:demo.project.test.HomePageTest@2bd08376]" started-at="2026-07-03T10:24:04 MST" name="setup" finished-at="2026-07-03T10:24:10 MST" duration-ms="6100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:demo.project.test.HomePageTest@2bd08376]" started-at="2026-07-01T23:58:55 MST" name="setupPages" finished-at="2026-07-01T23:58:55 MST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:demo.project.test.HomePageTest@2bd08376]" started-at="2026-07-03T10:24:10 MST" name="setupPages" finished-at="2026-07-03T10:24:10 MST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="verifyOrnageHRMLogo()[pri:0, instance:demo.project.test.HomePageTest@2bd08376]" started-at="2026-07-01T23:58:55 MST" name="verifyOrnageHRMLogo" finished-at="2026-07-01T23:59:07 MST" duration-ms="11967" status="PASS">
+        <test-method signature="verifyOrnageHRMLogo()[pri:0, instance:demo.project.test.HomePageTest@2bd08376]" started-at="2026-07-03T10:24:10 MST" name="verifyOrnageHRMLogo" finished-at="2026-07-03T10:24:16 MST" duration-ms="5480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyOrnageHRMLogo -->
-        <test-method is-config="true" signature="shutdown()[pri:0, instance:demo.project.test.HomePageTest@2bd08376]" started-at="2026-07-01T23:59:07 MST" name="shutdown" finished-at="2026-07-01T23:59:07 MST" duration-ms="176" status="PASS">
+        <test-method is-config="true" signature="shutdown()[pri:0, instance:demo.project.test.HomePageTest@2bd08376]" started-at="2026-07-03T10:24:16 MST" name="shutdown" finished-at="2026-07-03T10:24:16 MST" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutdown -->

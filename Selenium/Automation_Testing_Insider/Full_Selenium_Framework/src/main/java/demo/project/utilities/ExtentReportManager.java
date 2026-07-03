@@ -23,13 +23,18 @@ public class ExtentReportManager {
 	private static ExtentReports extentRpt;
 	private static ThreadLocal<ExtentTest> testReport = new ThreadLocal<>();
 	private static Map<Long,WebDriver> mapDr = new HashMap<>();
+	private static String timeStamp = "";
+	private static String dateFolder = "";
 	
 	//initialize the extent report
 	public synchronized static ExtentReports getExtentReport() {
 		if(extentRpt == null) {
+			//setup up the time stamp and date folder
+			timeStamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
+			dateFolder = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
 			
 			//configure the report
-			String reportPath = System.getProperty("user.dir") + "/src/test/resources/ExtentReport/ExtentReport.html";
+			String reportPath = System.getProperty("user.dir") + "/src/test/resources/ExtentReport/" + dateFolder + "/ExtentReport-" + timeStamp + ".html";
 			ExtentSparkReporter extentSpark = new ExtentSparkReporter(reportPath);
 			extentSpark.config().setReportName("Automation Test Report");
 			extentSpark.config().setDocumentTitle("Orange HRM");
@@ -103,8 +108,8 @@ public class ExtentReportManager {
 		File src = ts.getScreenshotAs(OutputType.FILE);
 		
 		//format data and time for file name
-		String timeStamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
-		String destinationPath = System.getProperty("user.dir") + "/src/test/resources/ScreenShots/" + screenShotName + "_" + timeStamp + ".png";
+		timeStamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
+		String destinationPath = System.getProperty("user.dir") + "/src/test/resources/ScreenShots/" + dateFolder + "/" + screenShotName + "_" + timeStamp + ".png";
 		
 		File image = new File(destinationPath);
 		try {
