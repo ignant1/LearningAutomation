@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import demo.project.base.BaseClass;
 import demo.project.pages.HomePage;
 import demo.project.pages.LoginPage;
+import demo.project.utilities.DataProviderManager;
 import demo.project.utilities.ExtentReportManager;
 
 public class LoginPageTest extends BaseClass{
@@ -22,15 +23,15 @@ public class LoginPageTest extends BaseClass{
 		homePage = new HomePage();//getDriver());   - no longer need to pass the web driver
 	}
 	
-	@Test
-	public void TC01_validLoginTest() {
+	@Test(dataProvider="ValidLoginData", dataProviderClass=DataProviderManager.class)
+	public void TC01_validLoginTest(String username, String password) {
 		////this has been moved to TestListener.onTestStart method
 		//ExtentReportManager.startTest("Login Page-Text Case 01-Valid Login Test");
 		logger.info("==============================================================================");
 		logger.info("Running test case TC01_validLoginTest.");
 		logger.info("==============================================================================");
 		ExtentReportManager.logStep("Loading Login Page and entering username and password.");
-		loginPage.performLogin("admin", "admin123");
+		loginPage.performLogin(username, password);
 		ExtentReportManager.logStep("Verifying Admin tab is visible or not.");
 		Assert.assertTrue(homePage.isAdminTabVisible(),"Admin tab should be visible after successfull login");
 		ExtentReportManager.logStep("Validation successfully.");
@@ -40,15 +41,15 @@ public class LoginPageTest extends BaseClass{
 
 	}
 
-	@Test
-	public void TC02_invalidLoginTest() {
+	@Test(dataProvider="InvalidLoginData", dataProviderClass=DataProviderManager.class)
+	public void TC02_invalidLoginTest(String username, String password) {
 		////this has been moved to TestListener.onTestStart method
 		//ExtentReportManager.startTest("Login Page-Text Case 02-Invalid Login Test");
 		logger.info("==============================================================================");
 		logger.info("Running test case TC02_invalidLoginTest.");
 		logger.info("==============================================================================");
 		ExtentReportManager.logStep("Loading Login Page and entering username and bad password.");
-		loginPage.performLogin("admin", "admin12");
+		loginPage.performLogin(username, password);
 		ExtentReportManager.logStep("Verifying error message is correct.");
 		String expectedErrorMessage = "Invalid credentials1";
 		Assert.assertTrue(loginPage.verifyErrorMessage(expectedErrorMessage),"Test Failed: invalid error message");

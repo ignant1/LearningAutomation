@@ -9,6 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -18,6 +19,8 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
+import demo.project.base.BaseClass;
+
 public class ExtentReportManager {
 
 	private static ExtentReports extentRpt;
@@ -25,6 +28,7 @@ public class ExtentReportManager {
 	private static Map<Long,WebDriver> mapDr = new HashMap<>();
 	private static String timeStamp = "";
 	private static String dateFolder = "";
+	public static final Logger logger = BaseClass.logger;
 	
 	//initialize the extent report
 	public synchronized static ExtentReports getExtentReport() {
@@ -35,6 +39,7 @@ public class ExtentReportManager {
 			
 			//configure the report
 			String reportPath = System.getProperty("user.dir") + "/src/test/resources/ExtentReport/" + dateFolder + "/ExtentReport-" + timeStamp + ".html";
+			logger.info("Running getExtentReport and reportPath is: " + reportPath);
 			ExtentSparkReporter extentSpark = new ExtentSparkReporter(reportPath);
 			extentSpark.config().setReportName("Automation Test Report");
 			extentSpark.config().setDocumentTitle("Orange HRM");
