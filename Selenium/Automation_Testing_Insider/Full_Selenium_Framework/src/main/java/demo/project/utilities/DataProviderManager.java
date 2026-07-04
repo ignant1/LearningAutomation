@@ -17,7 +17,13 @@ public class DataProviderManager {
 		logger.info("Running DataProviderManager.ValidLoginData");
 		return getSheetData("ValidLoginData");
 	}
-	
+
+	@DataProvider(name="OrnageHRMLogo")
+	public static Object[][] OrnageHRMLogo(){
+		logger.info("Running DataProviderManager.OrnageHRMLogo");
+		return getSheetData("ValidLoginData");
+	}
+
 	@DataProvider(name="InvalidLoginData")
 	public static Object[][] InvalidLoginData(){
 		logger.info("Running DataProviderManager.InvalidLoginData");

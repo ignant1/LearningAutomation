@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import demo.project.base.BaseClass;
 import demo.project.pages.HomePage;
 import demo.project.pages.LoginPage;
+import demo.project.utilities.DataProviderManager;
 import demo.project.utilities.ExtentReportManager;
 
 public class HomePageTest extends BaseClass{
@@ -22,15 +23,15 @@ public class HomePageTest extends BaseClass{
 		homePage = new HomePage();//getDriver());   - no longer need to pass the web driver
 	}
 	
-	@Test
-	public void verifyOrnageHRMLogo() {
+	@Test(dataProvider="OrnageHRMLogo", dataProviderClass=DataProviderManager.class)
+	public void verifyOrnageHRMLogo(String username, String password) {
 		////this has been moved to TestListener.onTestStart method
 		//ExtentReportManager.startTest("Home Page-Logo Test");
 		logger.info("==============================================================================");
 		logger.info("Running test case verifyOrnageHRMLogo.");
 		logger.info("==============================================================================");
 		ExtentReportManager.logStep("Loading Login Page and entering username and password.");
-		loginPage.performLogin("admin", "admin123");
+		loginPage.performLogin(username, password);
 		ExtentReportManager.logStep("Verifying Logo is visible or not.");
 		Assert.assertTrue(homePage.verifyOrangeHRMLogo(),"Logo is not visible");
 		ExtentReportManager.logStep("Validation successfully.");
