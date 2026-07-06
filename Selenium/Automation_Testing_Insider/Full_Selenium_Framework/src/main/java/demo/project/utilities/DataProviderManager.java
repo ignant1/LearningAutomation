@@ -29,6 +29,12 @@ public class DataProviderManager {
 		logger.info("Running DataProviderManager.InvalidLoginData");
 		return getSheetData("InvalidLoginData");
 	}
+	
+	@DataProvider(name="EmployeeVerification")
+	public static Object[][] EmployeeVerification(){
+		logger.info("Running DataProviderManager.InvalidLoginData");
+		return getSheetData("EmployeeVerification");
+	}
 
 	private static Object[][] getSheetData(String sheetName){
 		logger.info("Running DataProviderManager.getSheetData");

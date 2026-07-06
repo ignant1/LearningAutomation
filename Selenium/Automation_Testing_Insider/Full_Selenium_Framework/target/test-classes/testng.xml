@@ -6,10 +6,11 @@
 	</listeners>
 	<test name = "OrangeHRMTest">
 		<classes>
-			<class name = "demo.project.test.DummyClass"></class>
+			<!-- <class name = "demo.project.test.DummyClass"></class>
 			<class name = "demo.project.test.DummyClass2"></class>
 			<class name = "demo.project.test.LoginPageTest"></class>
-			<class name = "demo.project.test.HomePageTest"></class>
+			<class name = "demo.project.test.HomePageTest"></class>  -->
+			<class name = "demo.project.test.DBVerificationTest"></class>
 		</classes>
 	</test>
 </suite>

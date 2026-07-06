@@ -230,3 +230,7 @@ System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.v
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.47, chrome: {chromedriverVersion: 150.0.7871.46 (5b586c06e0d2..., userDataDir: C:\Users\th3ig\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60374}, goog:processID: 34984, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60374/devtoo..., se:cdpVersion: 150.0.7871.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: ab06581daf031045dd6360cde8d56793
+2026-07-05 21:36:26 [TestNG-test-OrangeHRMTest-1] ERROR DBConnectionManager - Failed to connect to database at: jdbc:mysql://localhost:3306/mylocaldatabase
+2026-07-05 21:36:26 [TestNG-test-OrangeHRMTest-1] ERROR DBConnectionManager - Error Message: Unknown database 'mylocaldatabase'
+2026-07-05 21:36:26 [TestNG-test-OrangeHRMTest-1] ERROR DBConnectionManager - Error will executing query
+2026-07-05 21:36:26 [TestNG-test-OrangeHRMTest-1] ERROR DBConnectionManager - Error Message: Cannot invoke "java.sql.Connection.createStatement()" because "connect" is null
