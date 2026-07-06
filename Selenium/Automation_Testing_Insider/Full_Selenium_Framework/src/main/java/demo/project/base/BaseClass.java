@@ -15,6 +15,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.asserts.SoftAssert;
 
 import demo.project.actiondriver.ActionDriver;
 import demo.project.utilities.ExtentReportManager;
@@ -31,6 +32,7 @@ public class BaseClass {
 	//thread local driver variables
 	private static ThreadLocal<WebDriver> webDr = new ThreadLocal<>();
 	private static ThreadLocal<ActionDriver> actionDr = new ThreadLocal<>();
+	protected ThreadLocal<SoftAssert> softAst = ThreadLocal.withInitial(SoftAssert::new);
 	
 	public static final Logger logger = LoggerManager.getLogger(BaseClass.class);
 		
@@ -151,6 +153,11 @@ public class BaseClass {
 	public void setActionbDriver(ActionDriver ad) {
 		logger.info("Setting the Action Driver.");
 		actionDr.set(ad);
+	}
+	
+	//access the Soft Assert from outside the base class
+	public SoftAssert getSoftAssert() {
+		return softAst.get();
 	}
 	
 	////////////////////////////////////////////////////////////////
