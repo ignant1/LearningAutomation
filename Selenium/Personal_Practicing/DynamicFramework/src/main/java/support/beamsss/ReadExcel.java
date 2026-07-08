@@ -26,15 +26,21 @@ public class ReadExcel {
 			
 			//get the primary table that will list all the sheet and table names
 			XSSFTable tablelist = excelFile.getTable("SheetTableList");
-			
 			tableData = readTableData(tablelist.getStartRowIndex(), tablelist.getEndRowIndex(),
 					tablelist.getStartColIndex(), tablelist.getEndColIndex(), tablelist.getSheetName());
-			List<String> rowData = new ArrayList<>();
-			System.out.println(tableData.get(0)[0]);
-			/*System.out.println("Table Col starts at: " + tablelist.getStartColIndex());
-			System.out.println("Table Col ends at: " + tablelist.getEndColIndex());
-			System.out.println("Sheet name is: " + tablelist.getSheetName());
-			System.out.println("Table Row starts at: " + tablelist.getStartRowIndex());*/
+			
+			//for()
+			System.out.println("tableData.size() =  " + tableData.size());
+			System.out.println("tableData.get(0).length =  " + tableData.get(0).length);
+			System.out.println("tableData.get(0)[0] =  " + tableData.get(0)[0]);
+			System.out.println("tableData.get(1)[0] =  " + tableData.get(1)[0]);
+			System.out.println("tableData.get(1)[0] =  " + tableData.get(2)[0]);
+			System.out.println("tableData.get(1)[0] =  " + tableData.get(3)[0]);
+			System.out.println("tableData.get(0)[1] =  " + tableData.get(0)[1]);
+			System.out.println("tableData.get(1)[1] =  " + tableData.get(1)[1]);
+			System.out.println("tableData.get(0)[1] =  " + tableData.get(2)[1]);
+			System.out.println("tableData.get(1)[1] =  " + tableData.get(3)[1]);
+			//for(int r = 0; r < rowEnd; r++) {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -45,12 +51,12 @@ public class ReadExcel {
 	//method to read in the data from a specific table into an array
 	public List<String[]> readTableData(int rowStart, int rowEnd, int colStart, int colEnd, String tableName){
 		List<String[]> tableData = new ArrayList<>();
-		
-		//get the table
+
+		//get the table put it into an array and return it
 		XSSFSheet sheetObject = excelFile.getTable(tableName).getXSSFSheet();
-		for(int r = rowStart; r < rowEnd; r++) {
+		for(int r = rowStart; r <= rowEnd; r++) {
 			List<String> rowData = new ArrayList<>();
-			for(int c = colStart; c < colEnd; c++) {
+			for(int c = colStart; c <= colEnd; c++) {
 				rowData.add(getCellValue(sheetObject.getRow(r).getCell(c)));
 			}
 			tableData.add(rowData.toArray(new String[0]));

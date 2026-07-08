@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.439">
+           time="0.433">
     <properties></properties>
 
 
 
             <testcase
                 name="getTableListData"
-                time="0.439"
+                time="0.433"
                 classname="support.beamsss.ReadExcel">
             </testcase>
 </testsuite>
