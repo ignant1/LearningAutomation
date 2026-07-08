@@ -3,9 +3,9 @@ package demo.project.test;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import demo.project.base.BaseClass;
 import demo.project.pages.HomePage;
@@ -29,6 +29,9 @@ public class DBVerificationTest extends BaseClass{
 	
 	@Test(dataProvider="EmployeeVerification", dataProviderClass=DataProviderManager.class)
 	public void verifyEmployeeNameFromDB(String emp_id, String emp_name) {
+		
+		//create SoftAssert object
+		SoftAssert softAssert = getSoftAssert();
 		//login to the site
 		ExtentReportManager.logStep("Logging in with Admin Credentials.");
 		loginPage.performLogin(properties.getProperty("username"), properties.getProperty("password"));
@@ -53,14 +56,17 @@ public class DBVerificationTest extends BaseClass{
 		String middleName = employeeDetails.get("emp_middle_name");
 		String lastName = employeeDetails.get("emp_lastname");
 		
+		//validate first and middle name
 		String firstMiddleName = (firstName + " " + middleName).trim();
 		ExtentReportManager.logStep("Verify employee's first (and middle) name: " + firstMiddleName);
 		logger.info("Verify employee's first (and middle) name: " + firstMiddleName);
-		Assert.assertTrue(homePage.verifyEmployeeFirstMiddleName(firstMiddleName),"First (and middle) name is not matching!");
+		softAssert.assertTrue(homePage.verifyEmployeeFirstMiddleName(firstMiddleName),"First (and middle) name is not matching!");
 
+		//validate last name
 		ExtentReportManager.logStep("Verify employee's last name.");
-		Assert.assertTrue(homePage.verifyEmployeeLastName(lastName),"Last name is not matching!");
+		softAssert.assertTrue(homePage.verifyEmployeeLastName(lastName),"Last name is not matching!");
 		
 		ExtentReportManager.logStep("Employee's name verified via database.");
+		softAssert.assertAll();
 	}
 }
