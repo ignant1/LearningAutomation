@@ -15,7 +15,7 @@ import my.framework.support.TraceManager;
 public class IdiotTest{
 	private GettingLocators gl;
 	private String[] locatortypes = {"name","tagnaMe","clAssname","By.something","linktExt","partialLinkText","CssSelector","xpatH","id"};
-	public static final Logger logger = TraceManager.getLogger(IdiotTest.class);
+	private static final Logger logger = TraceManager.getLogger(IdiotTest.class);
 	
 	@Test
 	public void TestMethod1() {

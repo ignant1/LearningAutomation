@@ -7,7 +7,7 @@ import my.framework.support.TraceManager;
 
 public class GettingLocators {
 	
-	public static final Logger logger = TraceManager.getLogger(GettingLocators.class);
+	private static final Logger logger = TraceManager.getLogger(GettingLocators.class);
 	
 	public By getBasicLocator(String type, String name) {
 		if(type.toLowerCase().contains("xpath")){
