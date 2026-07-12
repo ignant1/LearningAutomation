@@ -1,17 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-08T14:47:58 MST" name="Default suite" finished-at="2026-07-08T14:47:58 MST" duration-ms="461">
+  <suite started-at="2026-07-11T23:00:33 MST" name="TestFramework" finished-at="2026-07-11T23:00:33 MST" duration-ms="88">
     <groups>
     </groups>
-    <test started-at="2026-07-08T14:47:58 MST" name="Default test" finished-at="2026-07-08T14:47:58 MST" duration-ms="461">
-      <class name="support.beamsss.ReadExcel">
-        <test-method signature="getTableListData()[pri:0, instance:support.beamsss.ReadExcel@31190526]" started-at="2026-07-08T14:47:58 MST" name="getTableListData" finished-at="2026-07-08T14:47:58 MST" duration-ms="433" status="PASS">
+    <test started-at="2026-07-11T23:00:33 MST" name="TestFramework" finished-at="2026-07-11T23:00:33 MST" duration-ms="88">
+      <class name="my.framework.experiments.IdiotTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:my.framework.experiments.IdiotTest@3899782c]" started-at="2026-07-11T23:00:33 MST" name="setUp" finished-at="2026-07-11T23:00:33 MST" duration-ms="36" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void my.framework.experiments.IdiotTest.TestMethod2()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getTableListData -->
-      </class> <!-- support.beamsss.ReadExcel -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:my.framework.experiments.IdiotTest@3899782c]" started-at="2026-07-11T23:00:33 MST" name="setUp" finished-at="2026-07-11T23:00:33 MST" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void my.framework.experiments.IdiotTest.TestMethod1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestMethod1()[pri:0, instance:my.framework.experiments.IdiotTest@3899782c]" started-at="2026-07-11T23:00:33 MST" name="TestMethod1" finished-at="2026-07-11T23:00:33 MST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod1 -->
+        <test-method signature="TestMethod2()[pri:0, instance:my.framework.experiments.IdiotTest@3899782c]" started-at="2026-07-11T23:00:33 MST" name="TestMethod2" finished-at="2026-07-11T23:00:33 MST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:my.framework.experiments.IdiotTest@3899782c]" started-at="2026-07-11T23:00:33 MST" name="tearDown" finished-at="2026-07-11T23:00:33 MST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:my.framework.experiments.IdiotTest@3899782c]" started-at="2026-07-11T23:00:33 MST" name="tearDown" finished-at="2026-07-11T23:00:33 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- my.framework.experiments.IdiotTest -->
+    </test> <!-- TestFramework -->
+  </suite> <!-- TestFramework -->
 </testng-results>

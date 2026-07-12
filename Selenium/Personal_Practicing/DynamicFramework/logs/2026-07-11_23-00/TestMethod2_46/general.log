@@ -1,0 +1,65 @@
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - Starting setup for test: TestMethod2
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - Starting Test.
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - Created Getting Locator object
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - Checking for locator type.
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  GettingLocators - Confirmed locator type is name.
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  GettingLocators - Returning By name
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - Type = name
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - In the Else part for Type = name
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - By.name: test
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - 
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - Checking for locator type.
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  GettingLocators - Confirmed locator type is name.
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  GettingLocators - Returning By name
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - Type = tagnaMe
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - In the Else part for Type = tagnaMe
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - By.name: test
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - 
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - Checking for locator type.
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  GettingLocators - Confirmed locator type is classname.
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  GettingLocators - Returning By classname
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - Type = clAssname
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - In the Else part for Type = clAssname
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - By.className: test
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - 
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - Checking for locator type.
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  GettingLocators - Invaid locator type provided: by.something
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - Type = By.something
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - Locator returned null.
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - 
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - Checking for locator type.
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  GettingLocators - Confirmed locator type is linktext.
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  GettingLocators - Returning By linktext
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - Type = linktExt
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - In the Else part for Type = linktExt
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - By.linkText: test
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - 
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - Checking for locator type.
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  GettingLocators - Confirmed locator type is linktext.
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  GettingLocators - Returning By linktext
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - Type = partialLinkText
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - In the Else part for Type = partialLinkText
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - By.linkText: test
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - 
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - Checking for locator type.
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  GettingLocators - Confirmed locator type is cssselector.
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  GettingLocators - Returning By cssselector
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - Type = CssSelector
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - In the Else part for Type = CssSelector
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - By.cssSelector: test
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - 
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - Checking for locator type.
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  GettingLocators - Confirmed locator type is xpath.
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  GettingLocators - Returning By xpath
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - Type = xpatH
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - In the Else part for Type = xpatH
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - By.xpath: test
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - 
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - Checking for locator type.
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  GettingLocators - Confirmed locator type is id.
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  GettingLocators - Returning By id
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - Type = id
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - In the Else part for Type = id
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - By.id: test
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - 
+2026-07-11 23:00:33 [TestNG-test-TestFramework-2] INFO  IdiotTest - Flushing out ThreadContext and ending the test.

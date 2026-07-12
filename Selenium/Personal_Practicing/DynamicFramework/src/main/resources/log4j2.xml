@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="WARN">
+	<appenders>
+		<!--  Console Appender -->
+		<console name="ConsoleAppender" target="SYSTEM_OUT">
+			<patternlayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %C{1} - %msg%n" />
+		</console>
+		
+		<!-- Routing Appender creates files based on ThreadContext 'logFileName' -->
+		<Routing name="RoutingAppender">
+		
+			<!-- Routes check the Thread Context Map (MDC) for a key named 'logfilepath' -->
+			<Routes pattern="$${ctx:logfilepath}">
+				
+				<!-- Default Route: Used if 'logfilepath' is empty or not set -->
+                <Route key="$${ctx:logfilepath}">
+                	<File name="DefaultLog" fileName="logs/${date:yyyy-MM-dd}/unrouted.log">
+                		<patternlayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %C{1} - %msg%n" />
+               		</File>
+                </Route>
+				
+				<!-- Dynamic Route: Matches any value provided to 'logfilepath' -->
+                <Route>
+					<!-- General File Appender -->
+					<file name="General-${ctx:logfilepath}" filename="logs/${date:yyyy-MM-dd_HH-mm}/${ctx:logfilepath}/general.log" append="true">
+						<filters>
+							<!-- Exclude ERROR and FATAL logs -->
+							<thresholdfilter level="error" onMatch="DENY" onMismatch="ACCEPT" />
+						</filters>
+						<patternlayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %C{1} - %msg%n" />
+					</file>
+					
+					<!-- Error File Appender -->
+					<file name="Error-${ctx:logfilepath}" filename="logs/${date:yyyy-MM-dd_HH-mm}/${ctx:logfilepath}/error.log" append="true">
+						<filters>
+						<!-- Include only ERROR and FATAL logs -->
+							<thresholdfilter level="error" onMatch="ACCEPT" onMismatch="DENY" />
+						</filters>
+						<patternlayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %C{1} - %msg%n" />
+					</file>
+				</Route>
+			</Routes>
+		</Routing>
+	</appenders>
+	<loggers>
+		<!-- Logger for Demo Project -->
+		<logger name="my.framework" level="trace" additivity="false">
+			<appenderref ref="ConsoleAppender" />
+			<appenderref ref="RoutingAppender" />
+		</logger>
+	</loggers>
+</configuration>

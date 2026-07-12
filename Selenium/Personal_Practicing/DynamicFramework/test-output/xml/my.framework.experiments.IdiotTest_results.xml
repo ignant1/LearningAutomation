@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestFramework"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.046">
+    <properties></properties>
+
+
+
+            <testcase
+                name="TestMethod2"
+                time="0.022"
+                classname="my.framework.experiments.IdiotTest">
+            </testcase>
+            <testcase
+                name="TestMethod1"
+                time="0.024"
+                classname="my.framework.experiments.IdiotTest">
+            </testcase>
+</testsuite>
